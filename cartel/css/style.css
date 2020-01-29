@@ -1,0 +1,18 @@
+.card-deck{
+    margin: 1%;
+}
+
+.clasePeliculas{
+    
+    margin-top: 3%;
+}
+
+h6{
+    text-align: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+
+    color: blue;
+    background-color: yellow;
+}
