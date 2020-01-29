@@ -1,2 +1,3 @@
 # cinebit
-Proyecto entregable - Equipo de estudio
+
+Plantillas finales para merge a rama master.
