@@ -13,7 +13,22 @@
 </head>
 
 <body>
-
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#nextReleases" role="tab" aria-controls="home" aria-selected="true">Proximos estenos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#allMovies" role="tab" aria-controls="profile" aria-selected="false">En cartelera</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="nextReleases" role="tabpanel" aria-labelledby="home-tab">
+            <p>Aca iran los proximos estrenos</p>
+        </div>
+        <div class="tab-pane fade" id="allMovies" role="tabpanel" aria-labelledby="profile-tab">
+            <p>Aca iran las películas en cartelra</p>
+        </div>
+      </div>
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
