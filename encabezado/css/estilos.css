@@ -1,0 +1,141 @@
+/*estilo realizado para la paguina de inicio de un cine*/
+body{
+	background: white;
+
+}
+/*contenedor suscriptor y ciudad*/
+
+header{
+	background-color: #171717;
+	width: 1365px;
+	height: 120px;
+} 
+
+aside {
+	background-color: #171717;
+	width: 20%;
+	height: 100%;
+	border-radius: 10px;
+	float:left;
+}
+/*contenedor del logo y barra de menu*/
+#primer-nav{
+	background-color: #171717;
+	width: 70%;
+	height: 50%;
+	margin-left: 5%;
+	float: left;
+} 
+
+#texto-pelicula{
+	width: 25%;
+	height: 60%;
+	margin-top: 1.4%;
+	border-radius: 5px;
+	float: left;
+}
+
+#boton-buscar{
+	width: 15%;
+	height: 60%;
+	font-size: 14px;
+	margin-top: 1.5%;
+	margin-left: 2%;
+	float: left;
+
+}
+
+#ingresar{
+	width: 10%;
+	height: 90%;
+	margin-top: 1%;
+	margin-left: 30%;
+	float: left;
+}
+#registrarse{
+	width: 10%;
+	height: 90%;
+	margin-top: 1%;
+	margin-left: 5%;
+	float:left;
+}
+
+
+
+/* estilos segundo nav */
+#segundo-nav{
+	background-color: #171717;
+	width: 70%;
+	height: 45%;
+	border-radius: 10px;
+	float: left;
+} 
+/*aca va el logo*/
+
+#logo{
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+
+
+
+ 
+/*aca ba los estilos de la barra de menu*/ 
+nav{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+/* subetiquetas barra de menu/tablas*/
+
+nav ul{
+	line-height: 40px;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	display: block;
+	margin-right: 0.6em;
+	line-height: 20px;
+	padding: 0.3em 2em;
+	background: transparent;
+	box-shadow: inset 0px -2p 0px 0px rgba(0,0,0,0.25);
+	text-decoration: none;
+	font-size: 0.9em;
+	color:#FFD102;
+	border-radius: 10px;
+	border: 2px solid #FFD102;
+}
+
+nav ul li a:hover {
+	background: #FFF102;
+}
+
+/*contenedor del carrusel*/
+#cont-carrusel{
+	background-image: url('../img/FONDO2-SLIDER.png');
+    width: 1280px;
+    height: 320px;
+    margin-left: 3%;  
+    margin-top: 0.2%; 
+    border-radius: 10px;
+}
+
+#tam-carrusel{
+	width:80%;
+	height: 80%;
+}
+.carrusel-img{
+	margin-left: 17%;
+	padding-top: 20px;
+	border-radius: 10px;
+
+}
+
+
+/*aca empieza los otros estilos*/
