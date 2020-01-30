@@ -1,0 +1,35 @@
+
+body{
+    /* Fondo de página */
+    background-color: #a3a3a3;
+
+}
+.card-deck{
+    /* margen para el contenedor de los card de pelis */
+    margin: 1%;
+}
+
+.clasePeliculas{
+    /* Altura de las imagenes de las pelis */
+    height: 428px;
+}
+
+h6{
+    /* se centran los títulos (próximo estreno y estreno)  */
+    text-align: center;
+}
+
+.btn-session{
+    /* color de letra de los botones  del nav dinamico*/
+    color: white;
+}
+
+.btn-session:hover{
+    /* color de letra en envento hover para los botones  del nav dinamico*/
+    color: yellow;
+}
+
+.card-text{
+    /* margen para los textos de las películas */
+    margin: 0;
+}

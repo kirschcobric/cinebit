@@ -6,60 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="./img/starFilms.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- Bootstrap CSS -->
+     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="./css/style.css">
     <title>StarFilms</title>
 </head>
 
 <body>
     <!-- Nav dinamico para el manejo de proximos estrenos y películas en cartelera -->
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#nextReleases" role="tab" aria-controls="home" aria-selected="true">Proximos estenos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#allMovies" role="tab" aria-controls="profile" aria-selected="false">En cartelera</a>
-        </li>
-    </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="nextReleases" role="tabpanel" aria-labelledby="home-tab">
+    <nav>
+        <div class="nav nav-tabs Mytabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active btn-session"  id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Próximos estrenos</a>
+            <a class="nav-item nav-link btn-session" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Cartelera</a>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <!-- div para el manejo de proximos estrenos -->
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
             <div class="card-deck">
-                <div class="card">
+                <div class="card bg-warning">
                     <h6 class="title-premiere">PROXIMO ESTRENO</h6>
                     <img src="./img/buenDiaVecindario.jpg" class="card-img-top clasePeliculas" alt="UN BUEN DÍA EN EL VECINDARIO">
                     <div class="card-body">
-                      <h5 class="card-title">UN BUEN DÍA EN EL VECINDARIO</h5>
-                      <p class="card-text"><strong>Estreno:</strong> 6 de febrero</p>
-                      <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
-                      <p><strong>Genero:</strong> Drama</p>
-                      <a href="https://www.youtube.com/watch?v=ZQc6h2LSSjA" target="_blank" class="btn btn-dark">Ver trailer</a>
+                        <h5 class="card-title">UN BUEN DÍA EN EL VECINDARIO</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 6 de febrero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
+                        <p><strong>Genero:</strong> Drama</p>
+                        <a href="https://www.youtube.com/watch?v=ZQc6h2LSSjA" target="_blank" class="btn btn-dark">Ver trailer</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-warning">
                     <h6 class="title-premiere">PROXIMO ESTRENO</h6>
                     <img src="./img/rostrosDiablo.jpg" class="card-img-top clasePeliculas" alt="LOS ROSTROS DEL DIABLO">
                     <div class="card-body">
-                      <h5 class="card-title">LOS ROSTROS DEL DIABLO</h5>
-                      <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
-                      <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                      <p><strong>Genero:</strong> Terror</p>
-                      <a href="https://www.youtube.com/watch?v=6TRm3e9DQB4" target="_blank" class="btn btn-dark">Ver trailer</a>
+                        <h5 class="card-title">LOS ROSTROS DEL DIABLO</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Terror</p>
+                        <a href="https://www.youtube.com/watch?v=6TRm3e9DQB4" target="_blank" class="btn btn-dark">Ver trailer</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-warning">
                     <h6 class="title-premiere">PROXIMO ESTRENO</h6>
                     <img src="./img/benditaRebelde.jpg" class="card-img-top clasePeliculas" alt="BENDITA REBELDÍA">
                     <div class="card-body">
-                      <h5 class="card-title">BENDITA REBELDÍA</h5>
-                      <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
-                      <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
-                      <p><strong>Genero:</strong> Comedia</p>
-                      <a href="https://www.youtube.com/watch?v=pLXRThUfUEo" target="_blank" class="btn btn-dark">Ver trailer</a>
+                        <h5 class="card-title">BENDITA REBELDÍA</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
+                        <p><strong>Genero:</strong> Comedia</p>
+                        <a href="https://www.youtube.com/watch?v=pLXRThUfUEo&t=2s" target="_blank" class="btn btn-dark">Ver trailer</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-warning">
                     <h6 class="title-premiere">PROXIMO ESTRENO</h6>
                     <img src="./img/maldicionRenace.jpg" class="card-img-top clasePeliculas" alt="LA MALDICIÓN RENACE">
                     <div class="card-body">
@@ -67,152 +66,151 @@
                         <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
                         <p class="card-text"><strong>Clasificación:</strong> +15</p>
                         <p><strong>Genero:</strong> Terror</p>
-                        <a href="https://www.youtube.com/watch?v=sMzc0my_tlk&t=4s" target="_blank" class="btn btn-dark">Ver trailer</a>
+                        <a href="https://www.youtube.com/watch?v=sMzc0my_tlk" target="_blank" class="btn btn-dark">Ver trailer</a>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="tab-pane fade" id="allMovies" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <!-- div para el manejo de cartelera -->
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <div class="card-deck">
-              <div class="card">
-                <h6>ESTRENO</h6>
-                <img src="img/1917.jpg" class="card-img-top clasePeliculas" alt="1917">
-                <div class="card-body">
-                  <h5 class="card-title">1917</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +12</p>
-                  <p><strong>Genero:</strong> Drama</p>
-                  <a href="https://www.youtube.com/watch?v=gZjQROMAh_s" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card text-white bg-danger">
+                    <h6>ESTRENO</h6>
+                    <img src="img/1917.jpg" class="card-img-top clasePeliculas" alt="1917">
+                    <div class="card-body">
+                        <h5 class="card-title">1917</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +12</p>
+                        <p><strong>Genero:</strong> Drama</p>
+                        <a href="https://www.youtube.com/watch?v=gZjQROMAh_s" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <h6>ESTRENO</h6>
-                <img src="img/badboys.jpg" class="card-img-top clasePeliculas" alt="BAD BOYS">
-                <div class="card-body">
-                  <h5 class="card-title">BAD BOYS</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                  <p><strong>Genero:</strong> Acción, Comedia</p>
-                  <a href="https://www.youtube.com/watch?v=Amzj7xll3Aw" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card text-white bg-danger">
+                    <h6>ESTRENO</h6>
+                    <img src="img/badboys.jpg" class="card-img-top clasePeliculas" alt="BAD BOYS">
+                    <div class="card-body">
+                        <h5 class="card-title">BAD BOYS</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Acción, Comedia</p>
+                        <a href="https://www.youtube.com/watch?v=Amzj7xll3Aw" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="img/dolittle.jpg" class="card-img-top clasePeliculas" alt="DR. DOLITTLE">
-                <div class="card-body">
-                  <h5 class="card-title">DR. DOLITTLE</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
-                  <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
-                  <p><strong>Genero:</strong> Aventura</p>
-                  <a href="https://www.youtube.com/watch?v=aZjg3-fPU3k" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/dolittle.jpg" class="card-img-top clasePeliculas" alt="DR. DOLITTLE">
+                    <div class="card-body">
+                        <h5 class="card-title">DR. DOLITTLE</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
+                        <p><strong>Genero:</strong> Aventura</p>
+                        <a href="https://www.youtube.com/watch?v=aZjg3-fPU3k" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="img/elescandalo.jpg" class="card-img-top clasePeliculas" alt="El ESCANDALO">
-                <div class="card-body">
-                  <h5 class="card-title">El ESCANDALO</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +12</p>
-                  <p><strong>Genero:</strong> Biografía, Drama</p>
-                  <a href="https://www.youtube.com/watch?v=MMG8lp0IkBs" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/elescandalo.jpg" class="card-img-top clasePeliculas" alt="El ESCANDALO">
+                    <div class="card-body">
+                        <h5 class="card-title">El ESCANDALO</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +12</p>
+                        <p><strong>Genero:</strong> Biografía, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=MMG8lp0IkBs" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
             </div>
             <div class="card-deck">
-              <div class="card">
-                <img src="img/guason.jpg" class="card-img-top clasePeliculas" alt="GUASON">
-                <div class="card-body">
-                  <h5 class="card-title">GUASÓN</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                  <p><strong>Genero:</strong> Crimen, DC Comics, Fantástico, Thriller</p>
-                  <a href="https://www.youtube.com/watch?v=TobNCFMK_bs" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/guason.jpg" class="card-img-top clasePeliculas" alt="GUASON">
+                    <div class="card-body">
+                        <h5 class="card-title">GUASÓN</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Crimen, DC Comics, Fantástico, Thriller</p>
+                        <a href="https://www.youtube.com/watch?v=TobNCFMK_bs" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="img/habiaunavezenhollywood5agosto.png" class="card-img-top clasePeliculas" alt="HABIA UNA VEZ EN HOLLYWOOD">
-                <div class="card-body">
-                  <h5 class="card-title">HABIA UNA VEZ EN HOLLYWOOD</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 15 de agosto</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                  <p><strong>Genero:</strong> Comedia, Drama</p>
-                  <a href="https://www.youtube.com/watch?v=iIuyUzcJAeA" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/habiaunavezenhollywood5agosto.png" class="card-img-top clasePeliculas" alt="HABIA UNA VEZ EN HOLLYWOOD">
+                    <div class="card-body">
+                        <h5 class="card-title">HABIA UNA VEZ EN HOLLYWOOD</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 15 de agosto</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Comedia, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=iIuyUzcJAeA" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="img/jojo.jpg" class="card-img-top clasePeliculas" alt="JOJO RABBIT">
-                <div class="card-body">
-                  <h5 class="card-title">JOJO RABBIT</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +12</p>
-                  <p><strong>Genero:</strong> Comedia, Drama</p>
-                  <a href="https://www.youtube.com/watch?v=aDw7YoSusfY" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/jojo.jpg" class="card-img-top clasePeliculas" alt="JOJO RABBIT">
+                    <div class="card-body">
+                        <h5 class="card-title">JOJO RABBIT</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +12</p>
+                        <p><strong>Genero:</strong> Comedia, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=aDw7YoSusfY" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="img/judy.png" class="card-img-top clasePeliculas" alt="JUDY">
-                <div class="card-body">
-                  <h5 class="card-title">JUDY</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 19 de diciembre</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                  <p><strong>Genero:</strong> Drama</p>
-                  <a href="https://www.youtube.com/watch?v=1TXjmVVdDAU" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/judy.png" class="card-img-top clasePeliculas" alt="JUDY">
+                    <div class="card-body">
+                        <h5 class="card-title">JUDY</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 19 de diciembre</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Drama</p>
+                        <a href="https://www.youtube.com/watch?v=1TXjmVVdDAU" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          
-          
+        
+        
             <div class="card-deck">
-              <div class="card">
-                <img src="img/parasito.jpg" class="card-img-top clasePeliculas" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">PARÁSITO</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 9 de enero</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                  <p><strong>Genero:</strong> Comedia, Drama</p>
-                  <a href="https://www.youtube.com/watch?v=90dWVETAdtI" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/parasito.jpg" class="card-img-top clasePeliculas" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PARÁSITO</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 9 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Comedia, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=90dWVETAdtI" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="img/posesionmary.jpg" class="card-img-top clasePeliculas" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">POSESIÓN DE MARY</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                  <p><strong>Genero:</strong> Terror</p>
-                  <a href="https://www.youtube.com/watch?v=zFol27P8T4k" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/posesionmary.jpg" class="card-img-top clasePeliculas" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">POSESIÓN DE MARY</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Terror</p>
+                        <a href="https://www.youtube.com/watch?v=zFol27P8T4k" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="img/contraloimposible.jpg" class="card-img-top clasePeliculas" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">CONTRA LO IMPOSIBLE</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 14 de noviembre</p>
-                  <p class="card-text"><strong>Clasificación:</strong> +7</p>
-                  <p><strong>Genero:</strong> Acción, Drama</p>
-                  <a href="https://www.youtube.com/watch?v=MpkLQg38aaY" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/contraloimposible.jpg" class="card-img-top clasePeliculas" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CONTRA LO IMPOSIBLE</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 14 de noviembre</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +7</p>
+                        <p><strong>Genero:</strong> Acción, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=MpkLQg38aaY" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="img/asterix.png" class="card-img-top clasePeliculas" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">ASTERIX</h5>
-                  <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
-                  <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
-                  <p><strong>Genero:</strong> Animación</p>
-                  <a href="https://www.youtube.com/watch?v=JYb-iEUmN88" target="_blank" class="btn btn-dark">Ver trailer</a>
+                <div class="card">
+                    <img src="img/asterix.png" class="card-img-top clasePeliculas" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ASTERIX</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
+                        <p><strong>Genero:</strong> Animación</p>
+                        <a href="https://www.youtube.com/watch?v=JYb-iEUmN88" target="_blank" class="btn btn-dark">Ver trailer</a>
+                    </div>
                 </div>
-              </div>
-            </div>
           </div>
-      </div>
+        </div>
+    </div>
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <!-- Optional JavaScript -->
+    <!-- Our JavaScript -->
     <script src="./js/javascript.js"></script>
 </body>
 
