@@ -1,7 +1,7 @@
 
 body{
-    /* Fondo de página */
-    background-color: #a3a3a3;
+    /* Fondo de página
+    background-color: #a3a3a3; */
 
 }
 .card-deck{
@@ -21,12 +21,12 @@ h6{
 
 .btn-session{
     /* color de letra de los botones  del nav dinamico*/
-    color: white;
+    color: gray;
 }
 
 .btn-session:hover{
     /* color de letra en envento hover para los botones  del nav dinamico*/
-    color: yellow;
+    color: black;
 }
 
 .card-text{
