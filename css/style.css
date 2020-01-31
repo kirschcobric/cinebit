@@ -1,11 +1,6 @@
-/*
-body{
-     Fondo de página
-    background-color: #a3a3a3; 
-}*/
+
 .div-contenedor{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin: 3%
 }
 .card-deck{
     /* margen para el contenedor de los card de pelis */
@@ -35,4 +30,34 @@ h6{
 .card-text{
     /* margen para los textos de las películas */
     margin: 0;
+}
+
+#carrousel-comidas{
+    /* margen inferior para el carrousel de comidas */
+    margin-bottom: 3%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: red;
+}
+
+.mar{
+    margin: 10%;
+}
+
+.div-sinopsis{
+    /* margenes para darle espacios al texto de la sinopsis */
+    margin:  30px 20px 20px 20px;
+}
+
+/* Estructura que muestra la sinopsis*/
+.estruc{
+    display: none;
+    position: absolute;
+    width: 90%;
+    z-index: 3;
+    background-color:#E3E3E3;
+    margin: 10% 0% 0% 20%;
+    opacity: 0.9;
+    color: black;
+    border-radius: 30px;
 }

@@ -1,5 +1,4 @@
-function marrano() = {
-    console.log("marrano");
-}
 
-marrano();
+function printPopUp(disp, id) {
+    document.getElementById(id).style.display = disp
+}
