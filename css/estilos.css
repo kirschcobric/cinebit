@@ -27,37 +27,40 @@ aside {
 	float: left;
 } 
 
-#texto-pelicula{
-	width: 25%;
-	height: 60%;
-	margin-top: 1.4%;
-	border-radius: 5px;
-	float: left;
-}
-
 #boton-buscar{
 	width: 15%;
 	height: 60%;
 	font-size: 14px;
 	margin-top: 1.5%;
-	margin-left: 2%;
+	margin-left: 25%;
 	float: left;
 
 }
 
-#ingresar{
-	width: 10%;
-	height: 90%;
-	margin-top: 1%;
-	margin-left: 30%;
-	float: left;
-}
-#registrarse{
-	width: 10%;
-	height: 90%;
-	margin-top: 1%;
+#boton-servicio{
+	width: 15%;
+	height: 60%;
+	font-size: 14px;
+	margin-top: 1.5%;
 	margin-left: 5%;
-	float:left;
+	float: left
+}
+
+#boton-ingresar{
+	width: 15%;
+	height: 60%;
+	font-size: 14px;
+	margin-top: 1.5%;
+	margin-left: 5%;
+	float: left
+}
+#boton-registrarse{
+	width: 15%;
+	height: 60%;
+	font-size: 14px;
+	margin-top: 1.5%;
+	margin-left: 5%;
+	float: left
 }
 
 
