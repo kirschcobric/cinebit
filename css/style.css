@@ -1,8 +1,11 @@
-
+/*
 body{
-    /* Fondo de página
-    background-color: #a3a3a3; */
-
+     Fondo de página
+    background-color: #a3a3a3; 
+}*/
+.contenedor{
+    margin-left: 3%;
+    margin-right: 3%;
 }
 .card-deck{
     /* margen para el contenedor de los card de pelis */
