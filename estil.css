@@ -1,0 +1,25 @@
+
+body{
+    margin: 3%;
+}
+.mar{
+    margin: 10%;
+}
+img{
+    height: 428px;
+    
+}
+.pa{
+    margin:  30px 20px 20px 20px;
+}
+.estruc{
+    display: none;
+    position: absolute;
+    width: 90%;
+    z-index: 3;
+    background-color:#ffd102;
+    margin: 10% 0% 0% 20%;
+    opacity: 0.9;
+    color: black;
+    border-radius: 30px;
+}
