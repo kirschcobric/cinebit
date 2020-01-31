@@ -1,0 +1,96 @@
+.banner{
+	width: 100%;
+	height: 250px;
+	background-color: #FFD102;
+}
+.bannerLeft{
+	width: 10%;
+	height: 250px;
+/*	background: orange;*/
+	float: left;
+}
+.bannerLogo{
+	width: 15%;
+	height: 250px;
+/*	background: green;*/
+	float: left;
+}
+.bannerPromo{
+	width: 40%;
+	height: 250px;
+	/*background: blue;*/
+	float: left;
+	align-content: center;
+}
+.newsLetter{
+	width: 25%;
+	height: 250px;
+	/*background: white;*/
+	float: left;
+	padding-left: 20px;
+}
+.bannerRight{
+	width: 10%;
+	height: 250px;
+	/*background: orange;*/
+	float: left;
+}
+#imgLogoBanner{
+	width: 200px;
+	padding-top: 15px;
+}
+.tituloNewsletter{
+	color: #636363;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
+}
+.contenidoNewsletter{
+	color: #171717;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.ImgBanner{
+	height: 250px;
+}
+
+#CasillaNewsletter{
+	background-color: #636363;
+	height: 30px;
+	width: 80%;
+	border: 0;
+}
+.slider{
+	width: 40%;
+	height: 250px;
+/*	background: blue;*/
+	float: left;
+	margin: auto;
+	overflow: hidden;
+	padding top: 0;
+}
+.slider ul{
+	padding-top: 0;
+	height: 250px;
+	display: flex;
+	width: 5000%;
+	margin-top: 0px;
+	animation: cambio 20s infinite;
+}
+.slider li{
+	padding-top: 0;
+	height: 250px;
+	list-style: none;
+	width: 2%;
+}
+.slider img{
+	height: 250px;
+	padding-top: 0;
+
+}
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+}
