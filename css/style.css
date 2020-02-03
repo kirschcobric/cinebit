@@ -1,0 +1,434 @@
+/* Header*/
+
+.btn {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.pb-1,
+.py-1 {
+    padding-bottom: .25rem !important;
+}
+
+.pt-1,
+.py-1 {
+    padding-top: .25rem !important;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+element {}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.pb-1,
+.py-1 {
+    padding-bottom: .25rem !important;
+}
+
+.pt-1,
+.py-1 {
+    padding-top: .25rem !important;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+
+/*contenedor del carrusel*/
+
+#cont-carrusel {
+    background-image: url('../img/FONDO2-SLIDER.png');
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0.2%;
+    border-radius: 10px;
+}
+
+.carrusel-img {
+    margin: auto;
+    padding: 25px;
+    border-radius: 30px;
+    width: 75%;
+}
+
+
+/*aca empieza los otros estilos*/
+
+.div-contenedor {
+    margin: 3%
+}
+
+.card-deck {
+    /* margen para el contenedor de los card de pelis */
+    margin: 1%;
+}
+
+.clasePeliculas {
+    /* Altura de las imagenes de las pelis */
+    height: 428px;
+}
+
+h6 {
+    /* se centran los títulos (próximo estreno y estreno)  */
+    text-align: center;
+}
+
+.btn-session {
+    /* color de letra de los botones  del nav dinamico*/
+    color: gray;
+}
+
+.btn-session:hover {
+    /* color de letra en envento hover para los botones  del nav dinamico*/
+    color: black;
+}
+
+.card-text {
+    /* margen para los textos de las películas */
+    margin: 0;
+}
+
+#carrousel-comidas {
+    /* margen inferior para el carrousel de comidas */
+    margin-bottom: 3%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: red;
+}
+
+.mar {
+    margin: 10%;
+}
+
+.div-sinopsis {
+    /* margenes para darle espacios al texto de la sinopsis */
+    margin: 30px 20px 20px 20px;
+}
+
+
+/* Estructura que muestra la sinopsis*/
+
+.estruc {
+    display: none;
+    position: absolute;
+    width: 90%;
+    z-index: 3;
+    background-color: #E3E3E3;
+    margin: 10% 0% 0% 20%;
+    opacity: 0.9;
+    color: black;
+    border-radius: 30px;
+}
+
+
+/* Banner */
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background-color: #FFD102;
+}
+
+.bannerLeft {
+    width: 10%;
+    height: 250px;
+    /*	background: orange;*/
+    float: left;
+}
+
+.bannerLogo {
+    width: 15%;
+    height: 250px;
+    /*	background: green;*/
+    float: left;
+}
+
+.bannerPromo {
+    width: 40%;
+    height: 250px;
+    /*background: blue;*/
+    float: left;
+}
+
+.newsLetter {
+    width: 25%;
+    height: 250px;
+    /*background: white;*/
+    float: left;
+    padding-left: 20px;
+}
+
+.bannerRight {
+    width: 10%;
+    height: 250px;
+    /*background: orange;*/
+    float: left;
+}
+
+#imgLogoBanner {
+    width: 200px;
+    padding-top: 15px;
+}
+
+.tituloNewsletter {
+    color: #636363;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.contenidoNewsletter {
+    color: #171717;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.ImgBanner {
+    height: 250px;
+}
+
+#CasillaNewsletter {
+    background-color: #636363;
+    height: 30px;
+    width: 80%;
+    border: 0;
+}
+
+.slider {
+    width: 40%;
+    height: 250px;
+    /*	background: blue;*/
+    float: left;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.slider ul {
+    padding-top: 0;
+    height: 250px;
+    display: flex;
+    width: 5000%;
+    margin-top: 0px;
+    animation: cambio 20s infinite;
+}
+
+.slider li {
+    padding-top: 0;
+    height: 250px;
+    list-style: none;
+    width: 2%;
+}
+
+.slider img {
+    height: 250px;
+    padding-top: 0;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+}
+
+
+/* Footer */
+
+body .footer {
+    z-index: 1;
+    --footer-background: #ffd102;
+    display: grid;
+    position: relative;
+    grid-area: footer;
+    min-height: 12rem;
+}
+
+body .footer .bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1rem;
+    background: var(--footer-background);
+    -webkit-filter: url("#blob");
+    filter: url("#blob");
+}
+
+body .footer .bubbles .bubble {
+    position: absolute;
+    left: var(--position, 50%);
+    background: var(--footer-background);
+    border-radius: 100%;
+    -webkit-animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+    animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+    -webkit-transform: translate(-50%, 100%);
+    transform: translate(-50%, 100%);
+}
+
+body .footer .content {
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 4rem;
+    padding: 2rem;
+    background: var(--footer-background);
+}
+
+body .footer .content a,
+body .footer .content p {
+    color: black;
+    text-decoration: none;
+}
+
+body .footer .content b {
+    color: white;
+}
+
+body .footer .content p {
+    margin: 0;
+    font-size: .75rem;
+}
+
+body .footer .content>div {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+body .footer .content>div>div {
+    margin: 0.25rem 0;
+}
+
+body .footer .content>div>div>* {
+    margin-right: .5rem;
+}
+
+body .footer .content>div .image {
+    width: 4rem;
+    height: 4rem;
+    margin: 0.25rem 0;
+    background-size: cover;
+}
+
+@-webkit-keyframes bubble-size {
+    0%,
+    75% {
+        width: var(--size, 4rem);
+        height: var(--size, 4rem);
+    }
+    100% {
+        width: 0rem;
+        height: 0rem;
+    }
+}
+
+@keyframes bubble-size {
+    0%,
+    75% {
+        width: var(--size, 4rem);
+        height: var(--size, 4rem);
+    }
+    100% {
+        width: 0rem;
+        height: 0rem;
+    }
+}
+
+@-webkit-keyframes bubble-move {
+    0% {
+        bottom: -4rem;
+    }
+    100% {
+        bottom: var(--distance, 10rem);
+    }
+}
+
+@keyframes bubble-move {
+    0% {
+        bottom: -4rem;
+    }
+    100% {
+        bottom: var(--distance, 10rem);
+    }
+}
