@@ -432,3 +432,229 @@ body .footer .content>div .image {
         bottom: var(--distance, 10rem);
     }
 }
+
+/* estilos de los alert*/
+.swal-overlay {
+    background-color: rgba(219, 243, 243, 0.70);
+  }
+  
+  .swal-modal{
+      background-color: white;
+      border: 3px solid rgba(112,45,34,1);
+      border-radius: 10px;
+  }
+  
+  .swal-title{
+      color: rgba(20,20,10,1);
+      font-size: 32px;
+      font-family: bebas;
+  }
+  
+  .swal-text{
+      font-size: 32px;
+      font-family:roboto;
+      color:rgba(112,45,34,1);
+      margin:5px;
+      text-align: center;
+  }
+  
+  /*estilo realizado para la paguina de inicio de un cine*/
+  body{
+      background: white;
+  
+  }
+  /*contenedor suscriptor y ciudad*/
+  
+  header{
+      background-color: #171717;
+      width: 1365px;
+      height: 120px;
+  } 
+  
+  aside {
+      background-color: #171717;
+      width: 20%;
+      height: 100%;
+      float:left;
+  }
+  
+  /*aca va el logo*/
+  
+  #logo{
+      margin-left: 10px;
+      margin-top: 15px;
+  }
+  
+  /*contenedor de la primera  barra de menu*/
+  #primer-nav{
+      background-color: #171717;
+      width: 70%;
+      height: 50%;
+      margin-left: 10%;
+      float: left;
+  } 
+  
+  #boton-buscar{
+      width: 15%;
+      height: 60%;
+      font-family:bebas;
+      font-size: 18px;
+      margin-top: 1.5%;
+      margin-left: 10%;
+      float: left;
+  
+  }
+  
+  #boton-servicio{
+      width: 15%;
+      height: 60%;
+      font-family: bebas;
+      font-size: 18px;
+      margin-top: 1.5%;
+      margin-left: 8%;
+      float: left;
+  }
+  
+  #boton-ingresar{
+      width: 15%;
+      height: 60%;
+      font-size: 18px;
+      margin-top: 1.5%;
+      margin-left: 8%;
+      float: left;
+  }
+  
+  #ingresoFormulario{
+      background-color: black;
+      width: 98%;
+      height: 100%;
+      margin-left: 1%;
+      font-family: bebas;
+      font-size: 24px;
+      color: white;
+      border: 4px solid white;
+      text-align: center;
+  }
+  
+  #botonFormulario{
+      background-color: rgba(220,53,69,0.8);
+      width: 90%;
+      height: 20%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+      font-family: bebas;
+      font-size: 24px;
+  }
+  
+  #boton-registro{
+      width: 15%;
+      height: 60%;
+      font-size: 18px;
+      margin-top: 1.5%;
+      margin-left: 8%;
+      float: left;
+  }
+  
+  /* estilos segundo nav */
+  #segundo-nav{
+      background-color: #171717;
+      width: 78%;
+      height: 45%;
+      margin-top: 1.5%;
+      border-radius: 10px;
+      float: left;
+  } 
+  
+  /*aca ba los estilos de la barra de menu*/ 
+  nav{
+      width: 70%;
+      height: 100%;
+      float: left;
+  }
+  
+  /* subetiquetas barra de menu/tablas*/
+  
+  nav ul{
+      width: 100%;
+      height: 100%;
+      line-height: 40px;
+  }
+  
+  nav li{
+      display: inline-block;
+  }
+  
+  nav a{
+      display: block;
+      margin-left: 1.2em;
+      line-height: 20px;
+      padding: 0.3em 2em;
+      background: transparent;
+      box-shadow: inset 0px -2p 0px 0px rgba(0,0,0,0.25);
+      text-decoration: none;
+      font-size: 0.9em;
+      color:#FFD102;
+      border-radius: 10px;
+      border: 2px solid #FFD102;
+  }
+  
+  nav ul li a:hover {
+      background: #FFF102;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  #nombreUsuarioCine{
+      width: 15%;
+      height: 40%;
+      font-family:bebas;
+      font-size: 20px;
+      color:white;
+      margin-top: 2.5%;
+      background-color: rgba(220, 53, 69, 0.9); 
+      border-radius: 10px;
+      text-align: center;
+      float: left;
+  }
+  
+  #cerrarSecionCine{
+      width: 4%;
+      height: 50%;
+      background-color: rgba(220, 53, 69, 0.9); 
+      font-size: 16px;
+      font-family: bebas;
+      margin-top: 2%;
+      margin-left: 1%;
+      border-radius: 50%;
+      color:white;
+      display: none;
+      float:left;
+  }
+  
+  
+  /*contenedor del carrusel*/
+  #cont-carrusel{
+      background-image: url('../img/FONDO2-SLIDER.png');
+      width: 1280px;
+      height: 320px;
+      margin-left: 3%;  
+      margin-top: 0.2%; 
+      border-radius: 10px;
+  }
+  
+  #tam-carrusel{
+      width:80%;
+      height: 80%;
+  }
+  .carrusel-img{
+      margin-left: 17%;
+      padding-top: 20px;
+      border-radius: 10px;
+  
+  }
+  
+  
+  /*aca empieza los otros estilos*/
