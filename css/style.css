@@ -491,6 +491,7 @@ body .footer .content>div .image {
       width: 70%;
       height: 50%;
       margin-left: 10%;
+      margin-bottom: 5%;
       float: left;
   } 
   
@@ -518,6 +519,7 @@ body .footer .content>div .image {
   #boton-ingresar{
       width: 15%;
       height: 60%;
+      font-family: bebas;
       font-size: 18px;
       margin-top: 1.5%;
       margin-left: 8%;
@@ -550,6 +552,7 @@ body .footer .content>div .image {
   #boton-registro{
       width: 15%;
       height: 60%;
+      font-family: bebas;
       font-size: 18px;
       margin-top: 1.5%;
       margin-left: 8%;

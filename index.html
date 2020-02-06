@@ -2,7 +2,6 @@
     <html>
 
     <head>
-        <title> StarFilms </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,6 +13,20 @@
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <!-- Our CSS -->
         <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Our JavaScript -->
+        <script src="js/javascript.js " type="text/javascript"></script>
+        <title> StarFilms </title>
     </head>
 
     <body>
@@ -86,11 +99,11 @@
                 <!-- aca empieza el boton de aceptar registro registro-->
 
                 <!-- aca termina el boton de aceptar registro-->
-                <nav id="segundo-nav">
+                <nav id="segundo-nav" style="margin: 1;">
                     <!--segunda barra de menu-->
                     <ul>
                         <!--lista del segundo nav-->
-                        <li> <a href="">Home </a> </li>
+                        <li> <a href=""> Home </a> </li>
                         <li> <a href=""> Estrenos </a> </li>
                         <li> <a href=""> Películas </a> </li>
                         <li> <a href=""> Comida </a> </li>
@@ -153,1044 +166,1043 @@
             </div>
         </div>
         </div><!-- aca acaba el carrusel-->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <script src="js/javascript.js " type="text/javascript"></script>
-    </body>
 
-    </html>
-
-    <!-- Nav dinamico para el manejo de proximos estrenos y películas en cartelera -->
-    <!-- div para el manejo de proximos estrenos -->
-    <div class="tab-pane fade show active" id="nav-home" aria-labelledby="nav-home-tab">
-        <div class="card-deck">
-            <div class="card bg-warning" onmouseout="printPopUp('none', 'tituloBuenDiaVecindario')"
-                onmouseover="printPopUp('block', 'tituloBuenDiaVecindario')">
-                <h6 class="title-premiere">PROXIMO ESTRENO</h6>
-                <img src="img/buenDiaVecindario.jpg" class="card-img-top clasePeliculas"
-                    alt="UN BUEN DÍA EN EL VECINDARIO">
-                <div id="tituloBuenDiaVecindario" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
+        <!-- Nav dinamico para el manejo de proximos estrenos y películas en cartelera -->
+        <!-- div para el manejo de proximos estrenos -->
+        <div class="tab-pane fade show active" id="nav-home" aria-labelledby="nav-home-tab">
+            <div class="card-deck">
+                <div class="card bg-warning" onmouseout="printPopUp('none', 'tituloBuenDiaVecindario')"
+                    onmouseover="printPopUp('block', 'tituloBuenDiaVecindario')">
+                    <h6 class="title-premiere">PROXIMO ESTRENO</h6>
+                    <img src="img/buenDiaVecindario.jpg" class="card-img-top clasePeliculas"
+                        alt="UN BUEN DÍA EN EL VECINDARIO">
+                    <div id="tituloBuenDiaVecindario" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">UN BUEN DÍA EN EL VECINDARIO</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 6 de febrero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
+                        <p><strong>Genero:</strong> Drama</p>
+                        <a href="https://www.youtube.com/watch?v=ZQc6h2LSSjA" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
                     </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">UN BUEN DÍA EN EL VECINDARIO</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 6 de febrero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
-                    <p><strong>Genero:</strong> Drama</p>
-                    <a href="https://www.youtube.com/watch?v=ZQc6h2LSSjA" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-            <div class="card bg-warning" onmouseout="printPopUp('none', 'tituloRostrosDiablo')"
-                onmouseover="printPopUp('block', 'tituloRostrosDiablo')">
-                <h6 class="title-premiere">PROXIMO ESTRENO</h6>
-                <img src="img/rostrosDiablo.jpg" class="card-img-top clasePeliculas" alt="LOS ROSTROS DEL DIABLO">
-                <div id="tituloRostrosDiablo" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
+                <div class="card bg-warning" onmouseout="printPopUp('none', 'tituloRostrosDiablo')"
+                    onmouseover="printPopUp('block', 'tituloRostrosDiablo')">
+                    <h6 class="title-premiere">PROXIMO ESTRENO</h6>
+                    <img src="img/rostrosDiablo.jpg" class="card-img-top clasePeliculas" alt="LOS ROSTROS DEL DIABLO">
+                    <div id="tituloRostrosDiablo" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">LOS ROSTROS DEL DIABLO</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Terror</p>
+                        <a href="https://www.youtube.com/watch?v=6TRm3e9DQB4" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
                     </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">LOS ROSTROS DEL DIABLO</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                    <p><strong>Genero:</strong> Terror</p>
-                    <a href="https://www.youtube.com/watch?v=6TRm3e9DQB4" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-            <div class="card bg-warning" onmouseout="printPopUp('none', 'tituloBenditaRebelde')"
-                onmouseover="printPopUp('block', 'tituloBenditaRebelde')">
-                <h6 class="title-premiere">PROXIMO ESTRENO</h6>
-                <img src="img/benditaRebelde.jpg" class="card-img-top clasePeliculas" alt="BENDITA REBELDÍA">
-                <div id="tituloBenditaRebelde" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
+                <div class="card bg-warning" onmouseout="printPopUp('none', 'tituloBenditaRebelde')"
+                    onmouseover="printPopUp('block', 'tituloBenditaRebelde')">
+                    <h6 class="title-premiere">PROXIMO ESTRENO</h6>
+                    <img src="img/benditaRebelde.jpg" class="card-img-top clasePeliculas" alt="BENDITA REBELDÍA">
+                    <div id="tituloBenditaRebelde" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">BENDITA REBELDÍA</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
+                        <p><strong>Genero:</strong> Comedia</p>
+                        <a href="https://www.youtube.com/watch?v=pLXRThUfUEo&t=2s" target="_blank"
+                            class="btn btn-dark">Ver
+                            trailer</a>
                     </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">BENDITA REBELDÍA</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
-                    <p><strong>Genero:</strong> Comedia</p>
-                    <a href="https://www.youtube.com/watch?v=pLXRThUfUEo&t=2s" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-            <div class="card bg-warning" onmouseout="printPopUp('none', 'tituloMaldicionRenace')"
-                onmouseover="printPopUp('block', 'tituloMaldicionRenace')">
-                <h6 class="title-premiere">PROXIMO ESTRENO</h6>
-                <img src="img/maldicionRenace.jpg" class="card-img-top clasePeliculas" alt="LA MALDICIÓN RENACE">
-                <div id="tituloMaldicionRenace" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
+                <div class="card bg-warning" onmouseout="printPopUp('none', 'tituloMaldicionRenace')"
+                    onmouseover="printPopUp('block', 'tituloMaldicionRenace')">
+                    <h6 class="title-premiere">PROXIMO ESTRENO</h6>
+                    <img src="img/maldicionRenace.jpg" class="card-img-top clasePeliculas" alt="LA MALDICIÓN RENACE">
+                    <div id="tituloMaldicionRenace" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
                     </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">LA MALDICIÓN RENACE</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                    <p><strong>Genero:</strong> Terror</p>
-                    <a href="https://www.youtube.com/watch?v=sMzc0my_tlk" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
+                    <div class="card-body">
+                        <h5 class="card-title">LA MALDICIÓN RENACE</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Terror</p>
+                        <a href="https://www.youtube.com/watch?v=sMzc0my_tlk" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+        </div>
 
-
-
-
-
-
-
-
-    <!-- div para el manejo de cartelera -->
-    <div id="nav-profile" aria-labelledby="nav-profile-tab">
-        <div class="card-deck" id="card1917">
-            <div class="card text-white bg-danger" onmouseout="printPopUp('none', 'titulo1917')"
-                onmouseover="printPopUp('block', 'titulo1917')">
-                <h6>ESTRENO</h6>
-                <img src="img/1917.jpg" class="card-img-top clasePeliculas" alt="1917">
-                <div id="titulo1917" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <p>El Dr. John Dolittle vive solo detrás de los muros de su exuberante mansión en la Inglaterra
-                            del siglo XIX. Su única compañía proviene de una variedad de animales exóticos con los que
-                            habla a diario. Pero cuando la joven reina
-                            Victoria se enferma gravemente, el médico excéntrico y sus amigos peludos se embarcan en una
-                            aventura épica en una isla mítica para encontrar la cura.</p>
-                        <h6><b> Duracion : 1h 41m Año: 2020</b></h6>
+        <!-- div para el manejo de cartelera -->
+        <div id="nav-profile" aria-labelledby="nav-profile-tab">
+            <div class="card-deck" id="card1917">
+                <div class="card text-white bg-danger" onmouseout="printPopUp('none', 'titulo1917')"
+                    onmouseover="printPopUp('block', 'titulo1917')">
+                    <h6>ESTRENO</h6>
+                    <img src="img/1917.jpg" class="card-img-top clasePeliculas" alt="1917">
+                    <div id="titulo1917" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <p>El Dr. John Dolittle vive solo detrás de los muros de su exuberante mansión en la
+                                Inglaterra
+                                del siglo XIX. Su única compañía proviene de una variedad de animales exóticos con los
+                                que
+                                habla a diario. Pero cuando la joven reina
+                                Victoria se enferma gravemente, el médico excéntrico y sus amigos peludos se embarcan en
+                                una
+                                aventura épica en una isla mítica para encontrar la cura.</p>
+                            <h6><b> Duracion : 1h 41m Año: 2020</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">1917</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +12</p>
+                        <p><strong>Genero:</strong> Drama</p>
+                        <a href="https://www.youtube.com/watch?v=gZjQROMAh_s" target="_blank"
+                            class="btn btn-secondary">Ver
+                            trailer</a>
                     </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">1917</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +12</p>
-                    <p><strong>Genero:</strong> Drama</p>
-                    <a href="https://www.youtube.com/watch?v=gZjQROMAh_s" target="_blank" class="btn btn-secondary">Ver
-                        trailer</a>
+                <div class="card text-white bg-danger" onmouseout="printPopUp('none', 'tituloBadBoys')"
+                    onmouseover="printPopUp('block', 'tituloBadBoys')">
+                    <h6>ESTRENO</h6>
+                    <img src="img/badboys.jpg" class="card-img-top clasePeliculas" alt="BAD BOYS">
+                    <div id="tituloBadBoys" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <p>El Dr. John Dolittle vive solo detrás de los muros de su exuberante mansión en la
+                                Inglaterra
+                                del siglo XIX. Su única compañía proviene de una variedad de animales exóticos con los
+                                que
+                                habla a diario. Pero cuando la joven reina
+                                Victoria se enferma gravemente, el médico excéntrico y sus amigos peludos se embarcan en
+                                una
+                                aventura épica en una isla mítica para encontrar la cura.</p>
+                            <h6><b> Duracion : 1h 41m Año: 2020</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">BAD BOYS</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Acción, Comedia</p>
+                        <a href="https://www.youtube.com/watch?v=Amzj7xll3Aw" target="_blank"
+                            class="btn btn-secondary">Ver
+                            trailer</a>
+                    </div>
+                </div>
+                <div class="card" onmouseout="printPopUp('none', 'tituloDolittle')"
+                    onmouseover="printPopUp('block', 'tituloDolittle')">
+                    <img src="img/dolittle.jpg" class="card-img-top clasePeliculas" alt="DR. DOLITTLE">
+                    <div id="tituloDolittle" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <p>El Dr. John Dolittle vive solo detrás de los muros de su exuberante mansión en la
+                                Inglaterra
+                                del siglo XIX. Su única compañía proviene de una variedad de animales exóticos con los
+                                que
+                                habla a diario. Pero cuando la joven reina
+                                Victoria se enferma gravemente, el médico excéntrico y sus amigos peludos se embarcan en
+                                una
+                                aventura épica en una isla mítica para encontrar la cura.</p>
+                            <h6><b> Duracion : 1h 41m Año: 2020</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">DR. DOLITTLE</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
+                        <p><strong>Genero:</strong> Aventura</p>
+                        <a href="https://www.youtube.com/watch?v=aZjg3-fPU3k" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
+                    </div>
+                </div>
+                <div class="card" onmouseout="printPopUp('none', 'tituloElEscandalo')"
+                    onmouseover="printPopUp('block', 'tituloElEscandalo')">
+                    <img src="img/elescandalo.jpg" class="card-img-top clasePeliculas" alt="El ESCANDALO">
+                    <div id="tituloElEscandalo" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <p>El Escandalo vive solo detrás de los muros de su exuberante mansión en la Inglaterra del
+                                siglo XIX. Su única compañía proviene de una variedad de animales exóticos con los que
+                                habla
+                                a diario. Pero cuando la joven reina Victoria
+                                se enferma gravemente, el médico excéntrico y sus amigos peludos se embarcan en una
+                                aventura
+                                épica en una isla mítica para encontrar la cura.</p>
+                            <h6><b> Duracion : 1h 41m Año: 2020</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">El ESCANDALO</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +12</p>
+                        <p><strong>Genero:</strong> Biografía, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=MMG8lp0IkBs" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
+                    </div>
                 </div>
             </div>
-            <div class="card text-white bg-danger" onmouseout="printPopUp('none', 'tituloBadBoys')"
-                onmouseover="printPopUp('block', 'tituloBadBoys')">
-                <h6>ESTRENO</h6>
-                <img src="img/badboys.jpg" class="card-img-top clasePeliculas" alt="BAD BOYS">
-                <div id="tituloBadBoys" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <p>El Dr. John Dolittle vive solo detrás de los muros de su exuberante mansión en la Inglaterra
-                            del siglo XIX. Su única compañía proviene de una variedad de animales exóticos con los que
-                            habla a diario. Pero cuando la joven reina
-                            Victoria se enferma gravemente, el médico excéntrico y sus amigos peludos se embarcan en una
-                            aventura épica en una isla mítica para encontrar la cura.</p>
-                        <h6><b> Duracion : 1h 41m Año: 2020</b></h6>
+
+            <div class="card-deck">
+                <div class="card" onmouseout="printPopUp('none', 'tituloGuason')"
+                    onmouseover="printPopUp('block', 'tituloGuason')">
+                    <img src="img/guason.jpg" class="card-img-top clasePeliculas" alt="GUASON">
+                    <div id="tituloGuason" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">GUASÓN</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Crimen, DC Comics, Fantástico, Thriller</p>
+                        <a href="https://www.youtube.com/watch?v=TobNCFMK_bs" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
                     </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">BAD BOYS</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                    <p><strong>Genero:</strong> Acción, Comedia</p>
-                    <a href="https://www.youtube.com/watch?v=Amzj7xll3Aw" target="_blank" class="btn btn-secondary">Ver
-                        trailer</a>
+                <div class="card" onmouseout="printPopUp('none', 'tituloHollywood')"
+                    onmouseover="printPopUp('block', 'tituloHollywood')">
+                    <img src="img/habiaUnaVezEnHollywood.png" class="card-img-top clasePeliculas"
+                        alt="HABIA UNA VEZ EN HOLLYWOOD">
+                    <div id="tituloHollywood" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">HABIA UNA VEZ EN HOLLYWOOD</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 15 de agosto</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Comedia, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=iIuyUzcJAeA" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
+                    </div>
+                </div>
+
+                <div class="card" onmouseout="printPopUp('none', 'tituloJojoRabbit')"
+                    onmouseover="printPopUp('block', 'tituloJojoRabbit')">
+                    <img src="img/jojo.jpg" class="card-img-top clasePeliculas" alt="JOJO RABBIT">
+                    <div id="tituloJojoRabbit" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">JOJO RABBIT</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +12</p>
+                        <p><strong>Genero:</strong> Comedia, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=aDw7YoSusfY" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
+                    </div>
+                </div>
+
+                <div class="card" onmouseout="printPopUp('none', 'tituloJudy')"
+                    onmouseover="printPopUp('block', 'tituloJudy')">
+                    <img src="img/judy.png" class="card-img-top clasePeliculas" alt="JUDY">
+                    <div id="tituloJudy" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">JUDY</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 19 de diciembre</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Drama</p>
+                        <a href="https://www.youtube.com/watch?v=1TXjmVVdDAU" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
+                    </div>
                 </div>
             </div>
-            <div class="card" onmouseout="printPopUp('none', 'tituloDolittle')"
-                onmouseover="printPopUp('block', 'tituloDolittle')">
-                <img src="img/dolittle.jpg" class="card-img-top clasePeliculas" alt="DR. DOLITTLE">
-                <div id="tituloDolittle" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <p>El Dr. John Dolittle vive solo detrás de los muros de su exuberante mansión en la Inglaterra
-                            del siglo XIX. Su única compañía proviene de una variedad de animales exóticos con los que
-                            habla a diario. Pero cuando la joven reina
-                            Victoria se enferma gravemente, el médico excéntrico y sus amigos peludos se embarcan en una
-                            aventura épica en una isla mítica para encontrar la cura.</p>
-                        <h6><b> Duracion : 1h 41m Año: 2020</b></h6>
+
+            <div class="card-deck">
+                <div class="card" onmouseout="printPopUp('none', 'tituloParasito')"
+                    onmouseover="printPopUp('block', 'tituloParasito')">
+                    <img src="img/parasito.jpg" class="card-img-top clasePeliculas" alt="...">
+                    <div id="tituloParasito" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">PARÁSITO</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 9 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Comedia, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=90dWVETAdtI" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
                     </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">DR. DOLITTLE</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
-                    <p><strong>Genero:</strong> Aventura</p>
-                    <a href="https://www.youtube.com/watch?v=aZjg3-fPU3k" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-            <div class="card" onmouseout="printPopUp('none', 'tituloElEscandalo')"
-                onmouseover="printPopUp('block', 'tituloElEscandalo')">
-                <img src="img/elescandalo.jpg" class="card-img-top clasePeliculas" alt="El ESCANDALO">
-                <div id="tituloElEscandalo" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <p>El Escandalo vive solo detrás de los muros de su exuberante mansión en la Inglaterra del
-                            siglo XIX. Su única compañía proviene de una variedad de animales exóticos con los que habla
-                            a diario. Pero cuando la joven reina Victoria
-                            se enferma gravemente, el médico excéntrico y sus amigos peludos se embarcan en una aventura
-                            épica en una isla mítica para encontrar la cura.</p>
-                        <h6><b> Duracion : 1h 41m Año: 2020</b></h6>
+                <div class="card" onmouseout="printPopUp('none', 'tituloPosesionMary')"
+                    onmouseover="printPopUp('block', 'tituloPosesionMary')">
+                    <img src="img/posesionmary.jpg" class="card-img-top clasePeliculas" alt="LA POSESIÓN DE MARY">
+                    <div id="tituloPosesionMary" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">POSESIÓN DE MARY</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +15</p>
+                        <p><strong>Genero:</strong> Terror</p>
+                        <a href="https://www.youtube.com/watch?v=zFol27P8T4k" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
                     </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">El ESCANDALO</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +12</p>
-                    <p><strong>Genero:</strong> Biografía, Drama</p>
-                    <a href="https://www.youtube.com/watch?v=MMG8lp0IkBs" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
+                <div class="card" onmouseout="printPopUp('none', 'tituloContraLoImposible')"
+                    onmouseover="printPopUp('block', 'tituloContraLoImposible')">
+                    <img src="img/contraloimposible.jpg" class="card-img-top clasePeliculas" alt="CONTRA LO IMPOSIBLE">
+                    <div id="tituloContraLoImposible" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CONTRA LO IMPOSIBLE</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 14 de noviembre</p>
+                        <p class="card-text"><strong>Clasificación:</strong> +7</p>
+                        <p><strong>Genero:</strong> Acción, Drama</p>
+                        <a href="https://www.youtube.com/watch?v=MpkLQg38aaY" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
+                    </div>
+                </div>
+                <div class="card" onmouseout="printPopUp('none', 'tituloAsterix')"
+                    onmouseover="printPopUp('block', 'tituloAsterix')">
+                    <img src="img/asterix.png" class="card-img-top clasePeliculas" alt="ASTERIX">
+                    <div id="tituloAsterix" class="estruc">
+                        <div class="div-sinopsis">
+                            <h6><b>SINOPSIS</b></h6>
+                            <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
+                                enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el
+                                desempleo, el
+                                crimen y la ruina financiera, dejando segmentos
+                                de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
+                                neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
+                                trabajadora de los servicios sociales para obtener
+                                su medicación.</P>
+                            <h6><b> Duracion : 2h 2m</b></h6>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ASTERIX</h5>
+                        <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
+                        <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
+                        <p><strong>Genero:</strong> Animación</p>
+                        <a href="https://www.youtube.com/watch?v=JYb-iEUmN88" target="_blank" class="btn btn-dark">Ver
+                            trailer</a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="card-deck">
-            <div class="card" onmouseout="printPopUp('none', 'tituloGuason')"
-                onmouseover="printPopUp('block', 'tituloGuason')">
-                <img src="img/guason.jpg" class="card-img-top clasePeliculas" alt="GUASON">
-                <div id="tituloGuason" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">GUASÓN</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 13 de febrero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                    <p><strong>Genero:</strong> Crimen, DC Comics, Fantástico, Thriller</p>
-                    <a href="https://www.youtube.com/watch?v=TobNCFMK_bs" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-            <div class="card" onmouseout="printPopUp('none', 'tituloHollywood')"
-                onmouseover="printPopUp('block', 'tituloHollywood')">
-                <img src="img/habiaUnaVezEnHollywood.png" class="card-img-top clasePeliculas"
-                    alt="HABIA UNA VEZ EN HOLLYWOOD">
-                <div id="tituloHollywood" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">HABIA UNA VEZ EN HOLLYWOOD</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 15 de agosto</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                    <p><strong>Genero:</strong> Comedia, Drama</p>
-                    <a href="https://www.youtube.com/watch?v=iIuyUzcJAeA" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-
-            <div class="card" onmouseout="printPopUp('none', 'tituloJojoRabbit')"
-                onmouseover="printPopUp('block', 'tituloJojoRabbit')">
-                <img src="img/jojo.jpg" class="card-img-top clasePeliculas" alt="JOJO RABBIT">
-                <div id="tituloJojoRabbit" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">JOJO RABBIT</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +12</p>
-                    <p><strong>Genero:</strong> Comedia, Drama</p>
-                    <a href="https://www.youtube.com/watch?v=aDw7YoSusfY" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-
-            <div class="card" onmouseout="printPopUp('none', 'tituloJudy')"
-                onmouseover="printPopUp('block', 'tituloJudy')">
-                <img src="img/judy.png" class="card-img-top clasePeliculas" alt="JUDY">
-                <div id="tituloJudy" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">JUDY</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 19 de diciembre</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                    <p><strong>Genero:</strong> Drama</p>
-                    <a href="https://www.youtube.com/watch?v=1TXjmVVdDAU" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card-deck">
-            <div class="card" onmouseout="printPopUp('none', 'tituloParasito')"
-                onmouseover="printPopUp('block', 'tituloParasito')">
-                <img src="img/parasito.jpg" class="card-img-top clasePeliculas" alt="...">
-                <div id="tituloParasito" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">PARÁSITO</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 9 de enero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                    <p><strong>Genero:</strong> Comedia, Drama</p>
-                    <a href="https://www.youtube.com/watch?v=90dWVETAdtI" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-            <div class="card" onmouseout="printPopUp('none', 'tituloPosesionMary')"
-                onmouseover="printPopUp('block', 'tituloPosesionMary')">
-                <img src="img/posesionmary.jpg" class="card-img-top clasePeliculas" alt="LA POSESIÓN DE MARY">
-                <div id="tituloPosesionMary" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">POSESIÓN DE MARY</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 16 de enero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +15</p>
-                    <p><strong>Genero:</strong> Terror</p>
-                    <a href="https://www.youtube.com/watch?v=zFol27P8T4k" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-            <div class="card" onmouseout="printPopUp('none', 'tituloContraLoImposible')"
-                onmouseover="printPopUp('block', 'tituloContraLoImposible')">
-                <img src="img/contraloimposible.jpg" class="card-img-top clasePeliculas" alt="CONTRA LO IMPOSIBLE">
-                <div id="tituloContraLoImposible" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">CONTRA LO IMPOSIBLE</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 14 de noviembre</p>
-                    <p class="card-text"><strong>Clasificación:</strong> +7</p>
-                    <p><strong>Genero:</strong> Acción, Drama</p>
-                    <a href="https://www.youtube.com/watch?v=MpkLQg38aaY" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-            <div class="card" onmouseout="printPopUp('none', 'tituloAsterix')"
-                onmouseover="printPopUp('block', 'tituloAsterix')">
-                <img src="img/asterix.png" class="card-img-top clasePeliculas" alt="ASTERIX">
-                <div id="tituloAsterix" class="estruc">
-                    <div class="div-sinopsis">
-                        <h6><b>SINOPSIS</b></h6>
-                        <P>En 1981, Arthur Fleck (Joaquin Phoenix) trabaja como payaso a sueldo y vive con su madre
-                            enferma, Penny (Frances Conroy), en Gotham City. La ciudad se derrumba bajo el desempleo, el
-                            crimen y la ruina financiera, dejando segmentos
-                            de la población privados de sus derechos y empobrecidos. Arthur sufre de un trastorno
-                            neurológico que lo hace reír en momentos inapropiados, y visita regularmente a una
-                            trabajadora de los servicios sociales para obtener
-                            su medicación.</P>
-                        <h6><b> Duracion : 2h 2m</b></h6>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">ASTERIX</h5>
-                    <p class="card-text"><strong>Estreno:</strong> 23 de enero</p>
-                    <p class="card-text"><strong>Clasificación:</strong> Para todo público</p>
-                    <p><strong>Genero:</strong> Animación</p>
-                    <a href="https://www.youtube.com/watch?v=JYb-iEUmN88" target="_blank" class="btn btn-dark">Ver
-                        trailer</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-
-    <br>
-
-    <!-- BANNER PUBLICITARIO -->
-    <div class="banner">
-        <div class="bannerLeft"></div>
-
-        <div class="bannerLogo">
-            <img id="imgLogoBanner" src="img/LOGO_STAR_FONDO_TARNSP.png">
-        </div>
-
-        <div class="slider">
-            <ul>
-                <li><img src="img/BANNER_01.png" alt=""></li>
-                <li><img src="img/BANNER_02.png" alt=""></li>
-            </ul>
         </div>
 
 
-        <!-- 
+        <br>
+
+        <!-- BANNER PUBLICITARIO -->
+        <div class="banner">
+            <div class="bannerLeft"></div>
+
+            <div class="bannerLogo">
+                <img id="imgLogoBanner" src="img/LOGO_STAR_FONDO_TARNSP.png">
+            </div>
+
+            <div class="slider">
+                <ul>
+                    <li><img src="img/BANNER_01.png" alt=""></li>
+                    <li><img src="img/BANNER_02.png" alt=""></li>
+                </ul>
+            </div>
+
+
+            <!-- 
 		<div class="bannerPromo">
 			<img class="ImgBanner"src="img/BANNER_01.png">
 			<img class="ImgBanner"src="img/BANNER_02.png">
 		</div> -->
 
-        <div class="newsLetter">
-            <p class="tituloNewsletter">Suscribete!!!
-                <form>
-                    <input id="CasillaNewsletter" type="Text" name="newsLetter" placeholder="Escribe tu e-mail">
-                </form>
-                <p class="contenidoNewsletter">Enterate de nuestras novedades</p>
+            <div class="newsLetter">
+                <p class="tituloNewsletter">Suscribete!!!
+                    <form>
+                        <input id="CasillaNewsletter" type="Text" name="newsLetter" placeholder="Escribe tu e-mail">
+                    </form>
+                    <p class="contenidoNewsletter">Enterate de nuestras novedades</p>
+            </div>
+            <div class="bannerRight"></div>
         </div>
-        <div class="bannerRight"></div>
-    </div>
 
-    <br>
+        <br>
 
 
-    <div id="carrousel-comidas" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carrousel-comidas" data-slide-to="0" class="active"></li>
-            <li data-target="#carrousel-comidas" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
+        <div id="carrousel-comidas" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carrousel-comidas" data-slide-to="0" class="active"></li>
+                <li data-target="#carrousel-comidas" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card border-danger" style="width: 18rem;">
+                                    <img src="img/comboSolitario.jpg" class="card-img-top" alt="combo Solitario">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Combo solitario</h5>
+                                        <div class="card-body">
+                                            <p class="card-text"> Delicioso hot dog de la casa con salsas al gusto,
+                                                Papas
+                                                fritas con mostaza y gaseosa.</p>
+                                            <p><strong> Precio: 10.000$ </strong></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card bg-danger " style="width: 18rem;">
+                                    <img src="img/comboTuyYo.jpg" class="card-img-top" alt="combo Tu y Yo">
+                                    <div class="card-body text-white">
+                                        <h5 class="card-title">Combo Pareja </h5>
+                                        <div class="card-body">
+                                            <p class="card-text"> Caja llena de palomitas de maiz en conjunto con dos
+                                                hot
+                                                dogs de la casa y dos gaseosas.</p>
+                                            <p><strong> Precio: 25.000$ </strong></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-danger" style="width: 18rem;">
+                                    <img src="img/comboKids.jpg" class="card-img-top" alt="combo Kids">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cajita feliz</h5>
+                                        <div class="card-body">
+                                            <p class="card-text"> Cajita feliz con Crispeta de 95 gramos, chocolatina
+                                                Jet de
+                                                12 gramos, gaseosa pequeña de 384 mililitros.</p>
+                                            <p><strong> Precio: 15.000$ </strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card border-danger" style="width: 18rem;">
+                                    <img src="img/comboParaDos.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Combo para dos</h5>
+                                        <div class="card-body">
+                                            <p class="card-text"> Cajita feliz con Crispeta de 95 gramos, chocolatina
+                                                Jet de
+                                                12 gramos, gaseosa pequeña de 384 mililitros.</p>
+                                            <p><strong> Precio: 15.000$ </strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card bg-danger text-white" style="width: 18rem;">
+                                    <img src="img/comboKids.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Cajita feliz</h5>
+                                        <div class="card-body">
+                                            <p class="card-text"> Cajita feliz con Crispeta de 95 gramos, chocolatina
+                                                Jet de
+                                                12 gramos, gaseosa pequeña de 384 mililitros.</p>
+                                            <p><strong> Precio: 15.000$ </strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card border-danger" style="width: 18rem;">
+                                    <img src="img/comboSnacks.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Combo snacks</h5>
+                                        <div class="card-body">
+                                            <p class="card-text"> Caja llena de palomitas de maiz en conjunto con dos
+                                                hot
+                                                dogs de la casa y dos gaseosas.</p>
+                                            <p><strong> Precio: 25.000$ </strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev controlprev" href="#carrousel-comidas" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon spanprev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next controlnext " href="#carrousel-comidas" role="button" data-slide="next">
+                <span class="carousel-control-next-icon spannext " aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <br>
+        <br>
+        <br>
+
+
+        <!-- footer -->
+
+        <div class="main"></div>
+        <div class="footer">
+            <div class="bubbles">
+                <div class="bubble"
+                    style="--size:3.1151597722255033rem; --distance:6.2133304335390775rem; --position:59.207679645810146%; --time:2.275505456416801s; --delay:-3.5383476890793317s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.384203003289605rem; --distance:8.311752191045565rem; --position:22.310493495700257%; --time:3.3695309186030604s; --delay:-2.403865872811158s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.5326788944635155rem; --distance:6.362737698253844rem; --position:60.37655218126058%; --time:3.02925276306485s; --delay:-2.5436886890044748s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.718578508154014rem; --distance:6.89452674997143rem; --position:73.68077382736013%; --time:3.9606968123714053s; --delay:-3.7709933182720228s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.360168366909485rem; --distance:7.9941822573238746rem; --position:65.65908947012852%; --time:2.9129706470844132s; --delay:-3.2684691647745385s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.5032266650438784rem; --distance:9.34830482591802rem; --position:103.63144000109361%; --time:2.15348626638761s; --delay:-2.7550407183396652s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.1428333620826496rem; --distance:9.233415569434495rem; --position:14.10115842878617%; --time:3.371630503631128s; --delay:-3.7809444369211436s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.993597596294745rem; --distance:9.454067347806696rem; --position:24.678762554894966%; --time:3.315425457395939s; --delay:-3.6452172906177553s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.400273536299876rem; --distance:6.1229125295052045rem; --position:54.6844957137086%; --time:2.5860098079799196s; --delay:-2.4071440901550147s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.257041032132066rem; --distance:9.563627457060681rem; --position:27.63710849774987%; --time:3.01097782761349s; --delay:-3.1637479352639377s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.683712339282533rem; --distance:7.973521100737429rem; --position:55.07492357890016%; --time:3.1979197390979115s; --delay:-3.872225608807877s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.7071909384117676rem; --distance:7.583500487057822rem; --position:7.843613481930996%; --time:3.37580705257812s; --delay:-2.6692020267298155s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.729092464731968rem; --distance:7.736173134485756rem; --position:88.99114855458872%; --time:3.9765484376382263s; --delay:-3.2322903882512395s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.6664092395526rem; --distance:9.92819330606428rem; --position:17.26624600977071%; --time:2.870269615545773s; --delay:-2.357573738546565s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.797936319194851rem; --distance:7.437049423357848rem; --position:46.59742891866073%; --time:2.3770909147191546s; --delay:-2.3743816688123864s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.013577035327607rem; --distance:7.185263268990051rem; --position:-4.9547267811229485%; --time:3.65887281061905s; --delay:-2.009204905607069s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.854409682469414rem; --distance:9.024263643919046rem; --position:62.15928496572252%; --time:2.6645623396310687s; --delay:-2.7235254355136327s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.9905899095976567rem; --distance:6.493358627664764rem; --position:73.93921317826211%; --time:2.4859981325251295s; --delay:-3.449407179063751s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.602369880307838rem; --distance:9.336503944175693rem; --position:19.32625583741897%; --time:3.686327572690851s; --delay:-2.0297785773818067s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.750391712706276rem; --distance:8.139218740551863rem; --position:89.33698076622825%; --time:3.07265836309489s; --delay:-3.625701454519329s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.103321201259982rem; --distance:7.298594188514643rem; --position:3.880088782943364%; --time:3.851484035276458s; --delay:-2.865564475800916s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.389305141227172rem; --distance:6.626619349848913rem; --position:3.5447142418620246%; --time:2.7705130458240332s; --delay:-3.678635486126861s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.996748121609438rem; --distance:9.414007793456431rem; --position:33.79637668746182%; --time:2.7552487583573972s; --delay:-3.0235055685634253s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.770822129156467rem; --distance:6.635807222967831rem; --position:87.12149771068437%; --time:2.3789445113517553s; --delay:-3.6805854995234277s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.263158634313832rem; --distance:9.57710025949092rem; --position:78.84616039209675%; --time:3.143441871250902s; --delay:-2.68774909298759s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.6251354427073617rem; --distance:7.464445912812829rem; --position:68.90459155280443%; --time:2.0549830007442034s; --delay:-3.1987220686318247s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.5388138596053516rem; --distance:8.947418127350725rem; --position:103.67090848870663%; --time:3.24578323793508s; --delay:-2.2492562596019106s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.095803731050713rem; --distance:6.55440580389232rem; --position:70.49188587970666%; --time:3.518219936345667s; --delay:-3.7283677348619277s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.908108292046002rem; --distance:9.612575254817312rem; --position:-1.0606796097442706%; --time:2.913180545099285s; --delay:-2.456778714693538s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.2279727530157762rem; --distance:8.369147055532284rem; --position:21.984026508456683%; --time:2.0732163450822094s; --delay:-2.5336986694515837s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.518733428039738rem; --distance:9.676854483503341rem; --position:7.794197767462842%; --time:3.6879902860571665s; --delay:-2.71202334509382s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.112330430170935rem; --distance:6.045009770653723rem; --position:5.100808028541655%; --time:2.8839591968938922s; --delay:-2.08164994468186s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.7002445788664344rem; --distance:7.006521416981379rem; --position:51.34362337462377%; --time:3.0725914716727494s; --delay:-2.142080756606481s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.772952713539463rem; --distance:6.943645771205878rem; --position:-0.25400739058992094%; --time:3.6872060193745666s; --delay:-2.071874676041743s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.7286509327130286rem; --distance:9.394480087504196rem; --position:51.18128971838689%; --time:2.195727248010762s; --delay:-2.3187393115604302s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.90887470430453rem; --distance:7.6680505700383295rem; --position:6.913071114090762%; --time:3.7005374828245885s; --delay:-3.6566044299244043s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.1608396959250875rem; --distance:6.02841570341018rem; --position:68.13488924660234%; --time:2.2709826205327444s; --delay:-3.8845611678368863s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.505432618823548rem; --distance:7.645944717370734rem; --position:0.14262384676580098%; --time:2.0743295303110836s; --delay:-3.163714277263518s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.5104472835576264rem; --distance:9.995150338797208rem; --position:104.04053162936195%; --time:3.6407673807016545s; --delay:-3.8383293822579194s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.999317773438618rem; --distance:9.259496344124rem; --position:0.3059764413133159%; --time:3.9333396499485964s; --delay:-2.4263758124742707s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.912745585896144rem; --distance:9.576681318170353rem; --position:43.45435924741743%; --time:3.0353305134670374s; --delay:-3.7486582203094847s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.863254725167231rem; --distance:8.536217545202852rem; --position:59.55904422927149%; --time:2.2237524435133023s; --delay:-2.38952667836748s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.3346491962120384rem; --distance:6.176860283417718rem; --position:87.62120894846313%; --time:3.0219584319337796s; --delay:-3.1712923168366722s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.638506792215309rem; --distance:8.09207191121721rem; --position:102.66448032915787%; --time:3.6246201279771526s; --delay:-2.848194074752396s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.584568934560562rem; --distance:7.9306985224771rem; --position:47.47940684157839%; --time:2.218975279300803s; --delay:-2.2989240922417333s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.2899156430152052rem; --distance:8.817907249070926rem; --position:55.36919766845544%; --time:2.2089231571305414s; --delay:-2.702624037348795s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.0252976533886473rem; --distance:6.314671690374526rem; --position:7.573836904734449%; --time:2.06577658436527s; --delay:-2.8140491445190174s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.130140010262199rem; --distance:9.505002494420125rem; --position:85.4527203990041%; --time:3.594803485505784s; --delay:-2.2007400753973845s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.899586360812103rem; --distance:9.120039871409949rem; --position:62.54691078475554%; --time:3.299118720050442s; --delay:-3.6557604688152456s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.5112930703292715rem; --distance:8.498479913500002rem; --position:21.420568910112962%; --time:3.0319349627646757s; --delay:-2.390371267869747s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.9518608164705746rem; --distance:8.912298469820687rem; --position:11.837527718186546%; --time:2.310435714705882s; --delay:-3.220489892846537s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.334247172701824rem; --distance:7.61893906655193rem; --position:28.979333970845687%; --time:3.793339485403567s; --delay:-3.304480532034258s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.451626475693315rem; --distance:9.687456143258874rem; --position:63.11903809528869%; --time:3.6817520484128226s; --delay:-2.7543937335558284s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.137517455010519rem; --distance:8.388595862307653rem; --position:72.944525469667%; --time:3.8263744292584705s; --delay:-3.2322112581433458s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.5756265230777rem; --distance:6.455216116362951rem; --position:66.5949658939664%; --time:3.2645540493134355s; --delay:-2.128647105507997s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.199783978309833rem; --distance:7.655233645107482rem; --position:-4.235922289376248%; --time:2.4048632187181846s; --delay:-3.37731731141602s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.019704943911841rem; --distance:9.129462609263348rem; --position:46.69087051226383%; --time:2.33689515963432s; --delay:-3.480290339900908s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.4541109659927267rem; --distance:7.62643776616433rem; --position:43.12685599089002%; --time:3.603991799427285s; --delay:-3.760629770084679s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.108395965511842rem; --distance:7.61925340489446rem; --position:102.43020057057741%; --time:3.6160070505709245s; --delay:-3.700197221655795s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.140217900583706rem; --distance:9.010169589808513rem; --position:82.77280094680502%; --time:2.9130161780008565s; --delay:-3.4925498755600226s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.560650072010658rem; --distance:7.769006391828994rem; --position:45.71281524840561%; --time:3.4860724900843048s; --delay:-2.7162804425083147s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.860490718165222rem; --distance:7.6879702422076415rem; --position:33.71261981088936%; --time:2.1807369783954402s; --delay:-2.510909683332286s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.6093511727866323rem; --distance:8.472594303574438rem; --position:85.15838044504143%; --time:3.4253381684441675s; --delay:-2.913680064189444s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.5751997479257414rem; --distance:9.229580947979994rem; --position:88.00120243262069%; --time:2.797968005474087s; --delay:-2.880537957776339s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.608855787361054rem; --distance:9.595989800915335rem; --position:51.30339200753856%; --time:2.700179878955798s; --delay:-2.259522625713224s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.478913147256235rem; --distance:8.35179587029355rem; --position:7.673196627610331%; --time:2.152325312049939s; --delay:-2.659610359168147s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.516040022412525rem; --distance:8.929621487089884rem; --position:74.5619341455638%; --time:3.076918490317632s; --delay:-2.8390029630038556s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.65778019836479rem; --distance:6.038601170415777rem; --position:27.94060347794796%; --time:3.657320388608589s; --delay:-2.971045717419519s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.391367165439533rem; --distance:6.800003099080655rem; --position:50.36325903461101%; --time:3.0314900515982943s; --delay:-3.2875908418764332s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.889615050192795rem; --distance:7.580603512289358rem; --position:4.720641190711456%; --time:2.460907348899429s; --delay:-2.7842448405328226s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.11317104628559rem; --distance:7.54696285790273rem; --position:62.30095522440645%; --time:2.57803038859287s; --delay:-2.3938678454166866s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.2969491205653076rem; --distance:9.567094249167045rem; --position:101.81437052499764%; --time:2.0200412417282823s; --delay:-3.751793885892551s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.514630783432136rem; --distance:7.811016331080547rem; --position:69.32130103444541%; --time:2.0955231234041958s; --delay:-3.3542395351486713s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.657429141766329rem; --distance:6.788687581156701rem; --position:40.24812270327844%; --time:3.685704380067326s; --delay:-2.1969104769968557s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.357802068878672rem; --distance:8.131691236105292rem; --position:31.194446140463988%; --time:3.9793801363141452s; --delay:-3.5249974458340976s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.084482672329063rem; --distance:6.256305663987022rem; --position:58.82547960389194%; --time:2.4131332494820947s; --delay:-2.010214903415879s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.557309262465367rem; --distance:6.656091469568582rem; --position:9.627440047214941%; --time:2.5084896613345484s; --delay:-2.779079731403276s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.1307197038196914rem; --distance:6.210674236459669rem; --position:89.17695011470354%; --time:2.5118530929677254s; --delay:-2.808629988090544s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.180207542735088rem; --distance:9.757718463947928rem; --position:54.99944060526002%; --time:2.0866228162068383s; --delay:-2.701972785699591s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.499062216484502rem; --distance:9.914169444263148rem; --position:14.187172610145133%; --time:3.598239035129846s; --delay:-2.117692098477143s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.961818571774498rem; --distance:7.268495601608655rem; --position:22.551408243839163%; --time:3.487389254544048s; --delay:-2.628609595840293s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.703459582120609rem; --distance:6.518944505894757rem; --position:62.295980267851704%; --time:3.9317463647865987s; --delay:-3.0757807939671964s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.698496595610036rem; --distance:7.296694369579679rem; --position:10.552286652251187%; --time:3.973856954289595s; --delay:-3.567620977158276s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.5404313564747545rem; --distance:8.766458591693958rem; --position:29.28156569236392%; --time:3.3577790409177255s; --delay:-2.0225531166902178s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.1321641360811947rem; --distance:8.11486888383369rem; --position:22.222387483265404%; --time:2.0222392520693613s; --delay:-2.8326018791679353s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.3036433127101015rem; --distance:9.978800821553264rem; --position:38.43532476093302%; --time:2.0444084656514367s; --delay:-3.0371785422748654s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.7923889427381035rem; --distance:7.397777776410238rem; --position:96.98815374504261%; --time:2.742191876004408s; --delay:-2.6857359480294623s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.3656685395731465rem; --distance:9.278835579058446rem; --position:16.458817387661057%; --time:2.6264472166893227s; --delay:-3.5554680112328314s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.777600169934815rem; --distance:8.456697788172697rem; --position:81.56112736748078%; --time:3.1939796037117136s; --delay:-2.3558208648271446s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.741595232215077rem; --distance:6.289170888954638rem; --position:39.039503113535396%; --time:2.439030498940647s; --delay:-3.96631369658636s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.215413365887245rem; --distance:6.123838868481745rem; --position:-3.6085507256282168%; --time:2.8054691694931644s; --delay:-2.253739761898572s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.788438451992276rem; --distance:7.988231158440886rem; --position:96.5833396286919%; --time:3.566969579825741s; --delay:-2.2291339079843273s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.994258861308916rem; --distance:9.64361559240381rem; --position:5.435862924812067%; --time:3.556538140873448s; --delay:-3.6409337329173366s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.576099218025561rem; --distance:6.872401302559276rem; --position:43.141481769728884%; --time:2.0466668801506662s; --delay:-2.7558658804608767s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.552111604285784rem; --distance:8.897107138840155rem; --position:88.08319561240752%; --time:3.569343155301027s; --delay:-3.9865872967512317s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.378140991454596rem; --distance:6.975626784284478rem; --position:60.69336842472366%; --time:2.0893585827665s; --delay:-3.4237505273789846s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.994039392703142rem; --distance:8.430113416861424rem; --position:93.10860088546791%; --time:2.6155843627159747s; --delay:-2.3800069659284557s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.7615595106058963rem; --distance:9.430653872995519rem; --position:30.140493980126934%; --time:3.126276701318498s; --delay:-3.41506064597922s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.7115076868058345rem; --distance:6.054147865311881rem; --position:4.747446539580931%; --time:3.218752744934801s; --delay:-3.3930861748835084s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.48599062022942rem; --distance:9.731628678980384rem; --position:21.47125181092072%; --time:3.393073227137837s; --delay:-2.555724891299882s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.599293858993444rem; --distance:7.840178786517508rem; --position:36.995876540902245%; --time:2.2908794201589973s; --delay:-2.9222437715040903s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.621985247009319rem; --distance:6.240366045094343rem; --position:31.31501844857396%; --time:3.4422138811429583s; --delay:-3.5582524973517025s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.551891085273329rem; --distance:9.99044019663599rem; --position:95.38511200029109%; --time:3.0331675115681382s; --delay:-2.162360300235524s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.8391741611865298rem; --distance:8.17065707257552rem; --position:-0.509694157340066%; --time:2.8750057715352093s; --delay:-2.0584889928944237s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.682501126381883rem; --distance:8.908544203671244rem; --position:30.99797945783351%; --time:3.429412341936473s; --delay:-3.6294516109334363s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.022054228330178rem; --distance:7.499613425565036rem; --position:18.37515997520038%; --time:3.2036165684707467s; --delay:-2.822171921549794s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.0995196291753855rem; --distance:9.767345835540988rem; --position:4.605461404031601%; --time:2.334407332707339s; --delay:-3.596864614937508s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.929413092833104rem; --distance:6.863951361484246rem; --position:89.85683824799843%; --time:3.8114624619684205s; --delay:-2.0232184507383684s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.0831555593923774rem; --distance:9.699425622499025rem; --position:62.95640266900877%; --time:2.977563125906443s; --delay:-2.7675884963936173s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.267131965107083rem; --distance:9.621005307353492rem; --position:54.6110688934662%; --time:3.9424301702283566s; --delay:-2.2051847705681364s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.3916308995633875rem; --distance:7.942439190909908rem; --position:2.905662887867839%; --time:3.259698146804879s; --delay:-3.3241913138211454s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.3211258239144827rem; --distance:9.3886681459309rem; --position:10.459474149186223%; --time:3.6906467814516692s; --delay:-2.4897629113329534s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.926501372722611rem; --distance:9.928744563063464rem; --position:33.23723206519435%; --time:2.821399217669148s; --delay:-3.366164120378606s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.46279455909836rem; --distance:8.048976140973021rem; --position:8.232238670659024%; --time:3.613312261127148s; --delay:-2.3983429727938597s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.9714397923569367rem; --distance:6.509659264024644rem; --position:39.904460964897524%; --time:3.4960600030610114s; --delay:-2.223474436478975s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.392885565924369rem; --distance:6.9982267575083785rem; --position:72.09233299874097%; --time:2.560876999483603s; --delay:-2.494752805130703s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.606313020180166rem; --distance:6.057336981563389rem; --position:29.067071223680458%; --time:3.9710578237004253s; --delay:-2.9718304126154984s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.856421922946315rem; --distance:8.583741798449626rem; --position:78.62111856439587%; --time:3.6007217984723687s; --delay:-3.1215529244935265s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.0451650637471674rem; --distance:9.916933676989395rem; --position:83.48318877998679%; --time:2.7519120740722394s; --delay:-3.142256260641092s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.7771091404895234rem; --distance:9.727282306348844rem; --position:93.51767031961528%; --time:3.5059254285442534s; --delay:-3.608274916714319s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.805422411451258rem; --distance:8.180007570142813rem; --position:82.54819143341302%; --time:2.37925671181241s; --delay:-3.651232347297833s;">
+                </div>
+                <div class="bubble"
+                    style="--size:2.5705769121789297rem; --distance:8.670781126197662rem; --position:44.99986130454172%; --time:3.596250537201632s; --delay:-2.227092568492836s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.5349973179296255rem; --distance:8.258959753875388rem; --position:16.871425597815367%; --time:2.2859987016042047s; --delay:-2.3383802811890733s;">
+                </div>
+                <div class="bubble"
+                    style="--size:5.669075190424001rem; --distance:8.58186477165789rem; --position:92.42321019809447%; --time:3.887834448228143s; --delay:-2.7239947902008796s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.119542913333164rem; --distance:6.816827369310682rem; --position:56.78443283867176%; --time:3.983833103805842s; --delay:-3.6640054206641155s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.614201281420916rem; --distance:9.365316410658247rem; --position:97.86635548689624%; --time:2.4755425714711685s; --delay:-2.541616669893451s;">
+                </div>
+                <div class="bubble"
+                    style="--size:4.640910804263115rem; --distance:8.319608653650674rem; --position:4.524482984099752%; --time:2.6334117468288816s; --delay:-3.915190164101769s;">
+                </div>
+                <div class="bubble"
+                    style="--size:3.496015189707335rem; --distance:8.12693841686841rem; --position:103.30085617152277%; --time:3.4698216389613163s; --delay:-2.79939898907946s;">
+                </div>
+            </div>
+            <div class="content">
+
+                <div>
                     <div class="row">
-                        <div class="col">
-                            <div class="card border-danger" style="width: 18rem;">
-                                <img src="img/comboSolitario.jpg" class="card-img-top" alt="combo Solitario">
-                                <div class="card-body">
-                                    <h5 class="card-title">Combo solitario</h5>
-                                    <div class="card-body">
-                                        <p class="card-text"> Delicioso hot dog de la casa con salsas al gusto, Papas
-                                            fritas con mostaza y gaseosa.</p>
-                                        <p><strong> Precio: 10.000$ </strong></p>
-                                    </div>
-
-                                </div>
-                            </div>
+                        <div class="col-4">
+                            <h5>Siguenos en nuestras redes sociales</h5>
                         </div>
-                        <div class="col">
-                            <div class="card bg-danger " style="width: 18rem;">
-                                <img src="img/comboTuyYo.jpg" class="card-img-top" alt="combo Tu y Yo">
-                                <div class="card-body text-white">
-                                    <h5 class="card-title">Combo Pareja </h5>
-                                    <div class="card-body">
-                                        <p class="card-text"> Caja llena de palomitas de maiz en conjunto con dos hot
-                                            dogs de la casa y dos gaseosas.</p>
-                                        <p><strong> Precio: 25.000$ </strong></p>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card border-danger" style="width: 18rem;">
-                                <img src="img/comboKids.jpg" class="card-img-top" alt="combo Kids">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cajita feliz</h5>
-                                    <div class="card-body">
-                                        <p class="card-text"> Cajita feliz con Crispeta de 95 gramos, chocolatina Jet de
-                                            12 gramos, gaseosa pequeña de 384 mililitros.</p>
-                                        <p><strong> Precio: 15.000$ </strong></p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-10">
+                            <a href="https://web.whatsapp.com/"><img src="img/whatsapp.png" alt="" width="40"
+                                    heigh="40"></a>
+                            <a href="https://facebook.com/"><img src="img/facebook.png" alt="" width="40"
+                                    heigh="40"></a>
+                            <a href="https://www.instagram.com/?hl=es-la"><img src="img/instagram.png" alt="" width="40"
+                                    heigh="40"></a>
+                            <a href="https://www.youtube.com/?gl=CO&hl=es-419"><img src="img/youtube.png" alt=""
+                                    width="40" heigh="40"></a>
+                            <a href="https://twitter.com/login?lang=es"><img src="img/twitter.png" alt="" width="40"
+                                    heigh="40"></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="card border-danger" style="width: 18rem;">
-                                <img src="img/comboParaDos.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Combo para dos</h5>
-                                    <div class="card-body">
-                                        <p class="card-text"> Cajita feliz con Crispeta de 95 gramos, chocolatina Jet de
-                                            12 gramos, gaseosa pequeña de 384 mililitros.</p>
-                                        <p><strong> Precio: 15.000$ </strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card bg-danger text-white" style="width: 18rem;">
-                                <img src="img/comboKids.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cajita feliz</h5>
-                                    <div class="card-body">
-                                        <p class="card-text"> Cajita feliz con Crispeta de 95 gramos, chocolatina Jet de
-                                            12 gramos, gaseosa pequeña de 384 mililitros.</p>
-                                        <p><strong> Precio: 15.000$ </strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card border-danger" style="width: 18rem;">
-                                <img src="img/comboSnacks.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Combo snacks</h5>
-                                    <div class="card-body">
-                                        <p class="card-text"> Caja llena de palomitas de maiz en conjunto con dos hot
-                                            dogs de la casa y dos gaseosas.</p>
-                                        <p><strong> Precio: 25.000$ </strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div>
+                    <a href="https://twitter.com/login?lang=es"><img src="img/logo1.png" alt="" width="100"
+                            heigh="90"></a>
+                    <p>©2020 StarFilms</p>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev controlprev" href="#carrousel-comidas" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon spanprev" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next controlnext " href="#carrousel-comidas" role="button" data-slide="next">
-            <span class="carousel-control-next-icon spannext " aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <br>
-    <br>
-    <br>
+        <svg style="position:fixed; top:100vh;">
+            <defs>
+                <filter id="blob">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                        result="blob"></feColorMatrix>
+                    <feComposite in="SourceGraphic" in2="blob" operator="atop"></feComposite>
+                </filter>
+            </defs>
+        </svg>
+        <!-- footer -->
 
-
-    <!-- footer -->
-
-    <div class="main"></div>
-    <div class="footer">
-        <div class="bubbles">
-            <div class="bubble"
-                style="--size:3.1151597722255033rem; --distance:6.2133304335390775rem; --position:59.207679645810146%; --time:2.275505456416801s; --delay:-3.5383476890793317s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.384203003289605rem; --distance:8.311752191045565rem; --position:22.310493495700257%; --time:3.3695309186030604s; --delay:-2.403865872811158s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.5326788944635155rem; --distance:6.362737698253844rem; --position:60.37655218126058%; --time:3.02925276306485s; --delay:-2.5436886890044748s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.718578508154014rem; --distance:6.89452674997143rem; --position:73.68077382736013%; --time:3.9606968123714053s; --delay:-3.7709933182720228s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.360168366909485rem; --distance:7.9941822573238746rem; --position:65.65908947012852%; --time:2.9129706470844132s; --delay:-3.2684691647745385s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.5032266650438784rem; --distance:9.34830482591802rem; --position:103.63144000109361%; --time:2.15348626638761s; --delay:-2.7550407183396652s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.1428333620826496rem; --distance:9.233415569434495rem; --position:14.10115842878617%; --time:3.371630503631128s; --delay:-3.7809444369211436s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.993597596294745rem; --distance:9.454067347806696rem; --position:24.678762554894966%; --time:3.315425457395939s; --delay:-3.6452172906177553s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.400273536299876rem; --distance:6.1229125295052045rem; --position:54.6844957137086%; --time:2.5860098079799196s; --delay:-2.4071440901550147s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.257041032132066rem; --distance:9.563627457060681rem; --position:27.63710849774987%; --time:3.01097782761349s; --delay:-3.1637479352639377s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.683712339282533rem; --distance:7.973521100737429rem; --position:55.07492357890016%; --time:3.1979197390979115s; --delay:-3.872225608807877s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.7071909384117676rem; --distance:7.583500487057822rem; --position:7.843613481930996%; --time:3.37580705257812s; --delay:-2.6692020267298155s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.729092464731968rem; --distance:7.736173134485756rem; --position:88.99114855458872%; --time:3.9765484376382263s; --delay:-3.2322903882512395s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.6664092395526rem; --distance:9.92819330606428rem; --position:17.26624600977071%; --time:2.870269615545773s; --delay:-2.357573738546565s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.797936319194851rem; --distance:7.437049423357848rem; --position:46.59742891866073%; --time:2.3770909147191546s; --delay:-2.3743816688123864s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.013577035327607rem; --distance:7.185263268990051rem; --position:-4.9547267811229485%; --time:3.65887281061905s; --delay:-2.009204905607069s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.854409682469414rem; --distance:9.024263643919046rem; --position:62.15928496572252%; --time:2.6645623396310687s; --delay:-2.7235254355136327s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.9905899095976567rem; --distance:6.493358627664764rem; --position:73.93921317826211%; --time:2.4859981325251295s; --delay:-3.449407179063751s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.602369880307838rem; --distance:9.336503944175693rem; --position:19.32625583741897%; --time:3.686327572690851s; --delay:-2.0297785773818067s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.750391712706276rem; --distance:8.139218740551863rem; --position:89.33698076622825%; --time:3.07265836309489s; --delay:-3.625701454519329s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.103321201259982rem; --distance:7.298594188514643rem; --position:3.880088782943364%; --time:3.851484035276458s; --delay:-2.865564475800916s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.389305141227172rem; --distance:6.626619349848913rem; --position:3.5447142418620246%; --time:2.7705130458240332s; --delay:-3.678635486126861s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.996748121609438rem; --distance:9.414007793456431rem; --position:33.79637668746182%; --time:2.7552487583573972s; --delay:-3.0235055685634253s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.770822129156467rem; --distance:6.635807222967831rem; --position:87.12149771068437%; --time:2.3789445113517553s; --delay:-3.6805854995234277s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.263158634313832rem; --distance:9.57710025949092rem; --position:78.84616039209675%; --time:3.143441871250902s; --delay:-2.68774909298759s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.6251354427073617rem; --distance:7.464445912812829rem; --position:68.90459155280443%; --time:2.0549830007442034s; --delay:-3.1987220686318247s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.5388138596053516rem; --distance:8.947418127350725rem; --position:103.67090848870663%; --time:3.24578323793508s; --delay:-2.2492562596019106s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.095803731050713rem; --distance:6.55440580389232rem; --position:70.49188587970666%; --time:3.518219936345667s; --delay:-3.7283677348619277s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.908108292046002rem; --distance:9.612575254817312rem; --position:-1.0606796097442706%; --time:2.913180545099285s; --delay:-2.456778714693538s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.2279727530157762rem; --distance:8.369147055532284rem; --position:21.984026508456683%; --time:2.0732163450822094s; --delay:-2.5336986694515837s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.518733428039738rem; --distance:9.676854483503341rem; --position:7.794197767462842%; --time:3.6879902860571665s; --delay:-2.71202334509382s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.112330430170935rem; --distance:6.045009770653723rem; --position:5.100808028541655%; --time:2.8839591968938922s; --delay:-2.08164994468186s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.7002445788664344rem; --distance:7.006521416981379rem; --position:51.34362337462377%; --time:3.0725914716727494s; --delay:-2.142080756606481s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.772952713539463rem; --distance:6.943645771205878rem; --position:-0.25400739058992094%; --time:3.6872060193745666s; --delay:-2.071874676041743s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.7286509327130286rem; --distance:9.394480087504196rem; --position:51.18128971838689%; --time:2.195727248010762s; --delay:-2.3187393115604302s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.90887470430453rem; --distance:7.6680505700383295rem; --position:6.913071114090762%; --time:3.7005374828245885s; --delay:-3.6566044299244043s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.1608396959250875rem; --distance:6.02841570341018rem; --position:68.13488924660234%; --time:2.2709826205327444s; --delay:-3.8845611678368863s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.505432618823548rem; --distance:7.645944717370734rem; --position:0.14262384676580098%; --time:2.0743295303110836s; --delay:-3.163714277263518s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.5104472835576264rem; --distance:9.995150338797208rem; --position:104.04053162936195%; --time:3.6407673807016545s; --delay:-3.8383293822579194s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.999317773438618rem; --distance:9.259496344124rem; --position:0.3059764413133159%; --time:3.9333396499485964s; --delay:-2.4263758124742707s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.912745585896144rem; --distance:9.576681318170353rem; --position:43.45435924741743%; --time:3.0353305134670374s; --delay:-3.7486582203094847s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.863254725167231rem; --distance:8.536217545202852rem; --position:59.55904422927149%; --time:2.2237524435133023s; --delay:-2.38952667836748s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.3346491962120384rem; --distance:6.176860283417718rem; --position:87.62120894846313%; --time:3.0219584319337796s; --delay:-3.1712923168366722s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.638506792215309rem; --distance:8.09207191121721rem; --position:102.66448032915787%; --time:3.6246201279771526s; --delay:-2.848194074752396s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.584568934560562rem; --distance:7.9306985224771rem; --position:47.47940684157839%; --time:2.218975279300803s; --delay:-2.2989240922417333s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.2899156430152052rem; --distance:8.817907249070926rem; --position:55.36919766845544%; --time:2.2089231571305414s; --delay:-2.702624037348795s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.0252976533886473rem; --distance:6.314671690374526rem; --position:7.573836904734449%; --time:2.06577658436527s; --delay:-2.8140491445190174s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.130140010262199rem; --distance:9.505002494420125rem; --position:85.4527203990041%; --time:3.594803485505784s; --delay:-2.2007400753973845s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.899586360812103rem; --distance:9.120039871409949rem; --position:62.54691078475554%; --time:3.299118720050442s; --delay:-3.6557604688152456s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.5112930703292715rem; --distance:8.498479913500002rem; --position:21.420568910112962%; --time:3.0319349627646757s; --delay:-2.390371267869747s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.9518608164705746rem; --distance:8.912298469820687rem; --position:11.837527718186546%; --time:2.310435714705882s; --delay:-3.220489892846537s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.334247172701824rem; --distance:7.61893906655193rem; --position:28.979333970845687%; --time:3.793339485403567s; --delay:-3.304480532034258s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.451626475693315rem; --distance:9.687456143258874rem; --position:63.11903809528869%; --time:3.6817520484128226s; --delay:-2.7543937335558284s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.137517455010519rem; --distance:8.388595862307653rem; --position:72.944525469667%; --time:3.8263744292584705s; --delay:-3.2322112581433458s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.5756265230777rem; --distance:6.455216116362951rem; --position:66.5949658939664%; --time:3.2645540493134355s; --delay:-2.128647105507997s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.199783978309833rem; --distance:7.655233645107482rem; --position:-4.235922289376248%; --time:2.4048632187181846s; --delay:-3.37731731141602s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.019704943911841rem; --distance:9.129462609263348rem; --position:46.69087051226383%; --time:2.33689515963432s; --delay:-3.480290339900908s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.4541109659927267rem; --distance:7.62643776616433rem; --position:43.12685599089002%; --time:3.603991799427285s; --delay:-3.760629770084679s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.108395965511842rem; --distance:7.61925340489446rem; --position:102.43020057057741%; --time:3.6160070505709245s; --delay:-3.700197221655795s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.140217900583706rem; --distance:9.010169589808513rem; --position:82.77280094680502%; --time:2.9130161780008565s; --delay:-3.4925498755600226s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.560650072010658rem; --distance:7.769006391828994rem; --position:45.71281524840561%; --time:3.4860724900843048s; --delay:-2.7162804425083147s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.860490718165222rem; --distance:7.6879702422076415rem; --position:33.71261981088936%; --time:2.1807369783954402s; --delay:-2.510909683332286s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.6093511727866323rem; --distance:8.472594303574438rem; --position:85.15838044504143%; --time:3.4253381684441675s; --delay:-2.913680064189444s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.5751997479257414rem; --distance:9.229580947979994rem; --position:88.00120243262069%; --time:2.797968005474087s; --delay:-2.880537957776339s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.608855787361054rem; --distance:9.595989800915335rem; --position:51.30339200753856%; --time:2.700179878955798s; --delay:-2.259522625713224s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.478913147256235rem; --distance:8.35179587029355rem; --position:7.673196627610331%; --time:2.152325312049939s; --delay:-2.659610359168147s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.516040022412525rem; --distance:8.929621487089884rem; --position:74.5619341455638%; --time:3.076918490317632s; --delay:-2.8390029630038556s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.65778019836479rem; --distance:6.038601170415777rem; --position:27.94060347794796%; --time:3.657320388608589s; --delay:-2.971045717419519s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.391367165439533rem; --distance:6.800003099080655rem; --position:50.36325903461101%; --time:3.0314900515982943s; --delay:-3.2875908418764332s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.889615050192795rem; --distance:7.580603512289358rem; --position:4.720641190711456%; --time:2.460907348899429s; --delay:-2.7842448405328226s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.11317104628559rem; --distance:7.54696285790273rem; --position:62.30095522440645%; --time:2.57803038859287s; --delay:-2.3938678454166866s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.2969491205653076rem; --distance:9.567094249167045rem; --position:101.81437052499764%; --time:2.0200412417282823s; --delay:-3.751793885892551s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.514630783432136rem; --distance:7.811016331080547rem; --position:69.32130103444541%; --time:2.0955231234041958s; --delay:-3.3542395351486713s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.657429141766329rem; --distance:6.788687581156701rem; --position:40.24812270327844%; --time:3.685704380067326s; --delay:-2.1969104769968557s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.357802068878672rem; --distance:8.131691236105292rem; --position:31.194446140463988%; --time:3.9793801363141452s; --delay:-3.5249974458340976s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.084482672329063rem; --distance:6.256305663987022rem; --position:58.82547960389194%; --time:2.4131332494820947s; --delay:-2.010214903415879s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.557309262465367rem; --distance:6.656091469568582rem; --position:9.627440047214941%; --time:2.5084896613345484s; --delay:-2.779079731403276s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.1307197038196914rem; --distance:6.210674236459669rem; --position:89.17695011470354%; --time:2.5118530929677254s; --delay:-2.808629988090544s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.180207542735088rem; --distance:9.757718463947928rem; --position:54.99944060526002%; --time:2.0866228162068383s; --delay:-2.701972785699591s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.499062216484502rem; --distance:9.914169444263148rem; --position:14.187172610145133%; --time:3.598239035129846s; --delay:-2.117692098477143s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.961818571774498rem; --distance:7.268495601608655rem; --position:22.551408243839163%; --time:3.487389254544048s; --delay:-2.628609595840293s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.703459582120609rem; --distance:6.518944505894757rem; --position:62.295980267851704%; --time:3.9317463647865987s; --delay:-3.0757807939671964s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.698496595610036rem; --distance:7.296694369579679rem; --position:10.552286652251187%; --time:3.973856954289595s; --delay:-3.567620977158276s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.5404313564747545rem; --distance:8.766458591693958rem; --position:29.28156569236392%; --time:3.3577790409177255s; --delay:-2.0225531166902178s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.1321641360811947rem; --distance:8.11486888383369rem; --position:22.222387483265404%; --time:2.0222392520693613s; --delay:-2.8326018791679353s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.3036433127101015rem; --distance:9.978800821553264rem; --position:38.43532476093302%; --time:2.0444084656514367s; --delay:-3.0371785422748654s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.7923889427381035rem; --distance:7.397777776410238rem; --position:96.98815374504261%; --time:2.742191876004408s; --delay:-2.6857359480294623s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.3656685395731465rem; --distance:9.278835579058446rem; --position:16.458817387661057%; --time:2.6264472166893227s; --delay:-3.5554680112328314s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.777600169934815rem; --distance:8.456697788172697rem; --position:81.56112736748078%; --time:3.1939796037117136s; --delay:-2.3558208648271446s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.741595232215077rem; --distance:6.289170888954638rem; --position:39.039503113535396%; --time:2.439030498940647s; --delay:-3.96631369658636s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.215413365887245rem; --distance:6.123838868481745rem; --position:-3.6085507256282168%; --time:2.8054691694931644s; --delay:-2.253739761898572s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.788438451992276rem; --distance:7.988231158440886rem; --position:96.5833396286919%; --time:3.566969579825741s; --delay:-2.2291339079843273s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.994258861308916rem; --distance:9.64361559240381rem; --position:5.435862924812067%; --time:3.556538140873448s; --delay:-3.6409337329173366s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.576099218025561rem; --distance:6.872401302559276rem; --position:43.141481769728884%; --time:2.0466668801506662s; --delay:-2.7558658804608767s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.552111604285784rem; --distance:8.897107138840155rem; --position:88.08319561240752%; --time:3.569343155301027s; --delay:-3.9865872967512317s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.378140991454596rem; --distance:6.975626784284478rem; --position:60.69336842472366%; --time:2.0893585827665s; --delay:-3.4237505273789846s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.994039392703142rem; --distance:8.430113416861424rem; --position:93.10860088546791%; --time:2.6155843627159747s; --delay:-2.3800069659284557s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.7615595106058963rem; --distance:9.430653872995519rem; --position:30.140493980126934%; --time:3.126276701318498s; --delay:-3.41506064597922s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.7115076868058345rem; --distance:6.054147865311881rem; --position:4.747446539580931%; --time:3.218752744934801s; --delay:-3.3930861748835084s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.48599062022942rem; --distance:9.731628678980384rem; --position:21.47125181092072%; --time:3.393073227137837s; --delay:-2.555724891299882s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.599293858993444rem; --distance:7.840178786517508rem; --position:36.995876540902245%; --time:2.2908794201589973s; --delay:-2.9222437715040903s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.621985247009319rem; --distance:6.240366045094343rem; --position:31.31501844857396%; --time:3.4422138811429583s; --delay:-3.5582524973517025s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.551891085273329rem; --distance:9.99044019663599rem; --position:95.38511200029109%; --time:3.0331675115681382s; --delay:-2.162360300235524s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.8391741611865298rem; --distance:8.17065707257552rem; --position:-0.509694157340066%; --time:2.8750057715352093s; --delay:-2.0584889928944237s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.682501126381883rem; --distance:8.908544203671244rem; --position:30.99797945783351%; --time:3.429412341936473s; --delay:-3.6294516109334363s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.022054228330178rem; --distance:7.499613425565036rem; --position:18.37515997520038%; --time:3.2036165684707467s; --delay:-2.822171921549794s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.0995196291753855rem; --distance:9.767345835540988rem; --position:4.605461404031601%; --time:2.334407332707339s; --delay:-3.596864614937508s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.929413092833104rem; --distance:6.863951361484246rem; --position:89.85683824799843%; --time:3.8114624619684205s; --delay:-2.0232184507383684s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.0831555593923774rem; --distance:9.699425622499025rem; --position:62.95640266900877%; --time:2.977563125906443s; --delay:-2.7675884963936173s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.267131965107083rem; --distance:9.621005307353492rem; --position:54.6110688934662%; --time:3.9424301702283566s; --delay:-2.2051847705681364s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.3916308995633875rem; --distance:7.942439190909908rem; --position:2.905662887867839%; --time:3.259698146804879s; --delay:-3.3241913138211454s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.3211258239144827rem; --distance:9.3886681459309rem; --position:10.459474149186223%; --time:3.6906467814516692s; --delay:-2.4897629113329534s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.926501372722611rem; --distance:9.928744563063464rem; --position:33.23723206519435%; --time:2.821399217669148s; --delay:-3.366164120378606s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.46279455909836rem; --distance:8.048976140973021rem; --position:8.232238670659024%; --time:3.613312261127148s; --delay:-2.3983429727938597s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.9714397923569367rem; --distance:6.509659264024644rem; --position:39.904460964897524%; --time:3.4960600030610114s; --delay:-2.223474436478975s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.392885565924369rem; --distance:6.9982267575083785rem; --position:72.09233299874097%; --time:2.560876999483603s; --delay:-2.494752805130703s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.606313020180166rem; --distance:6.057336981563389rem; --position:29.067071223680458%; --time:3.9710578237004253s; --delay:-2.9718304126154984s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.856421922946315rem; --distance:8.583741798449626rem; --position:78.62111856439587%; --time:3.6007217984723687s; --delay:-3.1215529244935265s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.0451650637471674rem; --distance:9.916933676989395rem; --position:83.48318877998679%; --time:2.7519120740722394s; --delay:-3.142256260641092s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.7771091404895234rem; --distance:9.727282306348844rem; --position:93.51767031961528%; --time:3.5059254285442534s; --delay:-3.608274916714319s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.805422411451258rem; --distance:8.180007570142813rem; --position:82.54819143341302%; --time:2.37925671181241s; --delay:-3.651232347297833s;">
-            </div>
-            <div class="bubble"
-                style="--size:2.5705769121789297rem; --distance:8.670781126197662rem; --position:44.99986130454172%; --time:3.596250537201632s; --delay:-2.227092568492836s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.5349973179296255rem; --distance:8.258959753875388rem; --position:16.871425597815367%; --time:2.2859987016042047s; --delay:-2.3383802811890733s;">
-            </div>
-            <div class="bubble"
-                style="--size:5.669075190424001rem; --distance:8.58186477165789rem; --position:92.42321019809447%; --time:3.887834448228143s; --delay:-2.7239947902008796s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.119542913333164rem; --distance:6.816827369310682rem; --position:56.78443283867176%; --time:3.983833103805842s; --delay:-3.6640054206641155s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.614201281420916rem; --distance:9.365316410658247rem; --position:97.86635548689624%; --time:2.4755425714711685s; --delay:-2.541616669893451s;">
-            </div>
-            <div class="bubble"
-                style="--size:4.640910804263115rem; --distance:8.319608653650674rem; --position:4.524482984099752%; --time:2.6334117468288816s; --delay:-3.915190164101769s;">
-            </div>
-            <div class="bubble"
-                style="--size:3.496015189707335rem; --distance:8.12693841686841rem; --position:103.30085617152277%; --time:3.4698216389613163s; --delay:-2.79939898907946s;">
-            </div>
-        </div>
-        <div class="content">
-
-            <div>
-                <div class="row">
-                    <div class="col-4">
-                        <h5>Siguenos en nuestras redes sociales</h5>
-                    </div>
-                    <div class="col-10">
-                        <a href="https://web.whatsapp.com/"><img src="img/whatsapp.png" alt="" width="40"
-                                heigh="40"></a>
-                        <a href="https://facebook.com/"><img src="img/facebook.png" alt="" width="40" heigh="40"></a>
-                        <a href="https://www.instagram.com/?hl=es-la"><img src="img/instagram.png" alt="" width="40"
-                                heigh="40"></a>
-                        <a href="https://www.youtube.com/?gl=CO&hl=es-419"><img src="img/youtube.png" alt="" width="40"
-                                heigh="40"></a>
-                        <a href="https://twitter.com/login?lang=es"><img src="img/twitter.png" alt="" width="40"
-                                heigh="40"></a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <a href="https://twitter.com/login?lang=es"><img src="img/logo1.png" alt="" width="100" heigh="90"></a>
-                <p>©2020 StarFilms</p>
-            </div>
-        </div>
-    </div>
-    <svg style="position:fixed; top:100vh;">
-        <defs>
-            <filter id="blob">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
-                    result="blob"></feColorMatrix>
-                <feComposite in="SourceGraphic" in2="blob" operator="atop"></feComposite>
-            </filter>
-        </defs>
-    </svg>
-    <!-- footer -->
-
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <!-- Our JavaScript -->
-    <script src="js/javascript.js " type="text/javascript"></script>
     </body>
 
     </html>
